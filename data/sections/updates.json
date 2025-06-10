@@ -1,0 +1,367 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "it": {
+                "title_short": "Vita recente",
+                "title_short_nav": "Aggiornamenti",
+                "title_long_prefix": "Dai un'occhiata ai miei",
+                "title_long": "Recenti {{Aggiornamenti}}"
+            },
+            "ko": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            },
+            "zh": {
+                "title_short": "最近的生活",
+                "title_short_nav": "更新",
+                "title_long_prefix": "看看我的",
+                "title_long": "最近的{{更新}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "12",
+                            "text": "Games Developed"
+                        },
+                        "it": {
+                            "text": "Giochi Sviluppati"
+                        },
+                        "ko": {
+                            "text": "개발된 게임"
+                        },
+                        "zh": {
+                            "text": "开发的游戏"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "07",
+                            "text": "Satisfied Clients"
+                        },
+                        "it": {
+                            "text": "Clienti Soddisfatti"
+                        },
+                        "ko": {
+                            "text": "만족한 고객"
+                        },
+                        "zh": {
+                            "text": "满意的客户"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "147",
+                            "text": "Hearts on Fiverr"
+                        },
+                        "it": {
+                            "text": "Cuori su Fiverr"
+                        },
+                        "ko": {
+                            "text": "파이버에서 받은 하트"
+                        },
+                        "zh": {
+                            "text": "Fiverr上的心"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "10",
+                            "text": "Game Jams Survived"
+                        },
+                        "it": {
+                            "text": "Game Jams Superati"
+                        },
+                        "ko": {
+                            "text": "참여한 게임 잼"
+                        },
+                        "zh": {
+                            "text": "参加的游戏创作马拉松"
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20,000",
+                            "text": "Coffees consumed"
+                        },
+                        "it": {
+                            "text": "Caffè Consumati"
+                        },
+                        "ko": {
+                            "text": "마신 커피"
+                        },
+                        "zh": {
+                            "text": "喝的咖啡"
+                        }
+                    }
+                },
+
+
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "it": {
+                            "text": "Linee di Codice"
+                        },
+                        "ko": {
+                            "text": "코드 줄"
+                        },
+                        "zh": {
+                            "text": "代码行数"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Life {{Updates}}" },
+                "it": { "title": "Aggiornamenti sulla {{vita}}" },
+                "ko": { "title": "{{인생}} 업데이트" },
+                "zh": { "title": "{{生活}}更新" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2023, "month": 11},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.apple.com/", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://play.google.com/store/apps/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=wpG9PjZhtA4"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "First {{Game Release!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I published my [[first indie game]] on the App Store and on Google Play! It was a solo project where I handled everything from design to programming. The feedback from players has been super encouraging, and it motivated me to keep building more!"
+                        },
+                        "it": {
+                            "title": "Primo {{Rilascio di Gioco!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "Ho pubblicato il mio [[primo gioco indie]] su App Store e Google Play! È stato un progetto solista dove ho gestito tutto, dal design alla programmazione. I feedback dei giocatori sono stati molto incoraggianti e mi hanno motivato a continuare a creare!"
+                        },
+                        "ko": {
+                            "title": "첫 {{게임 출시!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "내 [[첫 번째 인디 게임]]을 App Store와 Google Play에 출시했습니다! 디자인부터 프로그래밍까지 모든 것을 혼자서 처리한 프로젝트였습니다. 플레이어들의 피드백이 매우 긍정적이어서 더 많은 게임을 만들고 싶어졌습니다!"
+                        },
+                        "zh": {
+                            "title": "首次 {{游戏发布!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "我在 App Store 和 Google Play 上发布了我的 [[第一款独立游戏]]！这是一个独立项目，我负责从设计到编程的所有工作。玩家的反馈非常积极，这激励我继续创作更多游戏！"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2024, "month": 7},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Game Jam {{Victory!}}",
+                            "province": "New York",
+                            "country": "US",
+                            "institution": "Game Dev Community",
+                            "text": "I participated in a game jam and [[won first place with my team]]! We created a fun and engaging game in just 48 hours. It was an incredible experience that pushed our creativity and teamwork to the limit."
+                        },
+                        "it": {
+                            "title": "Vittoria al {{Game Jam!}}",
+                            "province": "New York",
+                            "country": "US",
+                            "institution": "Comunità di Sviluppatori di Giochi",
+                            "text": "Ho partecipato a un game jam e [[vinto il primo posto con il mio team]]! Abbiamo creato un gioco divertente e coinvolgente in sole 48 ore. È stata un'esperienza incredibile che ha messo alla prova la nostra creatività e il lavoro di squadra."
+                        },
+                        "ko": {
+                            "title": "게임 잼 {{우승!}}",
+                            "province": "New York",
+                            "country": "US",
+                            "institution": "게임 개발 커뮤니티",
+                            "text": "게임 잼에 참여하여 [[우리 팀이 1위를 차지했습니다]]! 단 48시간 만에 재미있고 몰입감 있는 게임을 만들었습니다. 창의력과 팀워크를 극한으로 끌어올리는 놀라운 경험이었습니다."
+                        },
+                        "zh": {
+                            "title": "游戏创作马拉松 {{获胜!}}",
+                            "province": "New York",
+                            "country": "US",
+                            "institution": "游戏开发社区",
+                            "text": "我参加了一个游戏创作马拉松，并且 [[和我的团队一起获得了第一名]]！我们在短短48小时内制作了一个有趣且引人入胜的游戏。这是一次极大的挑战，充分发挥了我们的创造力和团队合作精神。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2025, "month": 2},
+                    "preview": {
+                        "links": [
+                        ],
+                        "screenshots": [
+                            "images/content/screenshot-apt-1.jpg",
+                            "images/content/screenshot-apt-2.jpg",
+                            "images/content/screenshot-apt-3.jpg",
+                            "images/content/screenshot-apt-4.jpg",
+                            "images/content/screenshot-apt-5.jpg"
+                        ],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Moved to {{Seattle!}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "",
+                            "text": "Just moved to my new apartment in Seattle! The city is [[vibrant and full of opportunities]] for game developers. I can't wait to explore the local game development scene and meet new people. Check out pictures of my new place below!"
+                        },
+                        "it": {
+                            "title": "Trasferito a {{Seattle!}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "",
+                            "text": "Mi sono appena trasferito nel mio nuovo appartamento a Seattle! La città è [[vibrante e piena di opportunità]] per gli sviluppatori di giochi. Non vedo l'ora di esplorare la scena locale dello sviluppo di giochi e incontrare nuove persone. Dai un'occhiata alle foto del mio nuovo posto qui sotto!"
+                        },
+                        "ko": {
+                            "title": "{{시애틀로 이사!}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "",
+                            "text": "시애틀에 새 아파트로 이사했습니다! 이 도시는 게임 개발자들에게 [[활기차고 기회가 가득한 곳]]입니다. 현지 게임 개발 씬을 탐험하고 새로운 사람들을 만나는 것이 기대됩니다. 아래에서 새 집의 사진을 확인해 보세요!"
+                        },
+                        "zh": {
+                            "title": "搬到 {{西雅图!}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "",
+                            "text": "我刚搬到西雅图的新公寓！这座城市对游戏开发者来说是[[充满活力和机会]]的。我迫不及待想要探索当地的游戏开发场景，结识新朋友。下面是我新家的照片！"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {"year": 2025, "month": 4},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Talk at {{Local Meetup}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "Indie Game Dev Meetup",
+                            "text": "I gave a [[talk on rapid prototyping]] at a local game dev meetup! It was a great chance to share my process, connect with other devs, and exchange feedback on ongoing projects. You can watch the talk in the video below."
+                        },
+                        "it": {
+                            "title": "Talk al {{Meetup Locale}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "Meetup di Sviluppatori Indie",
+                            "text": "Ho tenuto un [[talk sulla prototipazione rapida]] a un meetup locale di sviluppatori di giochi! È stata un'ottima occasione per condividere il mio processo, connettermi con altri sviluppatori e scambiare feedback sui progetti in corso. Puoi guardare il talk nel video qui sotto."
+                        },
+                        "ko": {
+                            "title": "{{지역 모임에서의 발표}}",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "인디 게임 개발 모임",
+                            "text": "지역 게임 개발 모임에서 [[빠른 프로토타이핑에 대한 발표]]를 했습니다! 내 프로세스를 공유하고 다른 개발자들과 연결하며 진행 중인 프로젝트에 대한 피드백을 교환할 수 있는 좋은 기회였습니다. 아래 비디오에서 발표를 시청할 수 있습니다."
+                        },
+                        "zh": {
+                            "title": "在 {{本地聚会}}的演讲",
+                            "province": "Seattle",
+                            "country": "US",
+                            "institution": "独立游戏开发者聚会",
+                            "text": "我在本地游戏开发者聚会上做了一个关于 [[快速原型制作]] 的演讲！这是一个很好的机会，可以分享我的过程，与其他开发者联系，并交换正在进行的项目的反馈。你可以在下面的视频中观看演讲。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

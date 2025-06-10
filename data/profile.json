@@ -1,0 +1,54 @@
+{
+    "name": "Emily Park",
+    "profilePictureUrl": "images/content/pfp.png",
+    "resumePdfUrl": "https://mag.wcoomd.org/uploads/2018/05/blank.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Emily Park",
+            "localized_name_stylized": "<img src='images/svg/logo-small-{theme}.svg' style='width:27px; margin-top:-12px; margin-right:9px;'><strong>Emily {{Park}}</strong>",
+            "status_message_available_for_freelance": "Available for hire!",
+            "roles": [
+                "I make mobile games",
+                "I make desktop games",
+                "I make console games",
+                "I make web games"
+            ]
+        },
+        "it": {
+            "status_message_available_for_freelance": "Disponibile per assunzioni!",
+            "roles": [
+                "Creo giochi per mobili",
+                "Creo giochi per desktop",
+                "Creo giochi per console",
+                "Creo giochi per il web"
+            ]
+        },
+        "ko": {
+            "localized_name": "박하은",
+            "localized_name_stylized": "<img src='images/svg/logo-small-{theme}.svg' style='width:27px; margin-top:-12px; margin-right:9px;'><strong>{{박}}하은</strong>",
+            "status_message_available_for_freelance": "프리랜서로 일할 수 있습니다!",
+            "roles": [
+                "모바일 게임을 만듭니다",
+                "데스크탑 게임을 만듭니다",
+                "콘솔 게임을 만듭니다",
+                "웹 게임을 만듭니다"
+            ]
+        },
+        "zh": {
+            "localized_name": "朴夏恩",
+            "localized_name_stylized": "<img src='images/svg/logo-small-{theme}.svg' style='width:27px; margin-top:-12px; margin-right:9px;'><strong>{{朴}}夏恩</strong>",
+            "status_message_available_for_freelance": "可以接受外包工作！",
+            "roles": [
+                "我制作手机游戏",
+                "我制作桌面游戏",
+                "我制作主机游戏",
+                "我制作网页游戏"
+            ]
+        }
+    }
+}

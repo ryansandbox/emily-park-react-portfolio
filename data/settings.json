@@ -1,0 +1,91 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "1.3.0"
+    },
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "Emily <b style='margin-left:3px'>Park</b>",
+        "subtitle": "Game Developer",
+        "logoOffset": {
+            "right": 14,
+            "top": -12,
+            "bottom": 4
+        }
+    },
+    "templateSettings": {
+        "animatedBackground": true,
+        "animatedCursorEnabled": true,
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true
+    },
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png"
+        },
+        {
+            "name": "한국어",
+            "id": "ko",
+            "flagUrl": "images/flags/ko.png"
+        },
+        {
+            "name": "Italiano",
+            "id": "it",
+            "flagUrl": "images/flags/it.png"
+        },
+        {
+            "name": "中文",
+            "id": "zh",
+            "flagUrl": "images/flags/zh.png"
+        }
+    ],
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {
+                    "name": "Dark Mode"
+                },
+                "it": {
+                    "name": "Modalità Scura"
+                },
+                "ko": {
+                    "name": "다크 모드"
+                },
+                "zh": {
+                    "name": "暗黑模式"
+                }
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {
+                    "name": "Light Mode"
+                },
+                "it": {
+                    "name": "Modalità Chiara"
+                },
+                "ko": {
+                    "name": "라이트 모드"
+                },
+                "zh": {
+                    "name": "明亮模式"
+                }
+            }
+        }
+    ],
+    "imagesToCache": [
+        "images/svg/logo-small-dark.svg",
+        "images/svg/logo-small-light.svg"
+    ]
+}

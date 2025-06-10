@@ -1,0 +1,58 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card"
+        },
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap"
+        },
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/skills.json",
+            "faIcon": "fa-solid fa-tools"
+        },
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase"
+        },
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        },
+        {
+            "id": "freelancing",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/freelancing.json",
+            "faIcon": "fa-solid fa-laptop-code"
+        },
+        {
+            "id": "updates",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/updates.json",
+            "faIcon": "fa-solid fa-rss"
+        },
+        {
+            "id": "studio",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/studio.json",
+            "faIcon": "fa-brands fa-bluesky"
+        },
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square"
+        }
+    ]
+}

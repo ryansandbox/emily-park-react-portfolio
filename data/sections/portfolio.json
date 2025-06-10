@@ -1,0 +1,408 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "it": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Dai un'occhiata al",
+                "title_long": "Mio {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            },
+            "zh": {
+                "title_short": "作品集",
+                "title_short_nav": "作品集",
+                "title_long_prefix": "看看我的",
+                "title_long": "{{作品集}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_mobile": "Mobile",
+                    "category_console": "Console",
+                    "category_web": "Web"
+                },
+                "it": {
+                    "category_all": "Tutti",
+                    "category_mobile": "Mobile",
+                    "category_console": "Console",
+                    "category_web": "Web"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_mobile": "모바일",
+                    "category_console": "콘솔",
+                    "category_web": "웹"
+                },
+                "zh": {
+                    "category_all": "全部",
+                    "category_mobile": "移动端",
+                    "category_console": "主机",
+                    "category_web": "网页"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_mobile", "category_console", "category_web"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_mobile",
+                    "img": "images/content/logo-portfolio-flappy-fish.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.apple.com/", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://play.google.com/store/apps/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/content/screenshot-flappy-fish-1.png",
+                            "images/content/screenshot-flappy-fish-2.png",
+                            "images/content/screenshot-flappy-fish-3.png",
+                            "images/content/screenshot-flappy-fish-4.png",
+                            "images/content/screenshot-flappy-fish-5.png"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=wpG9PjZhtA4"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flappy Fish",
+                            "text": "A [[casual mobile game]] where you navigate a fish through obstacles. It's designed for quick play sessions and features simple controls.",
+                            "tags": ["pixijs", "phaser", "cross platform"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco mobile casual]] dove navighi un pesce tra gli ostacoli. È progettato per sessioni di gioco rapide e presenta controlli semplici.",
+                            "tags": ["pixijs", "phaser", "cross platform"]
+                        },
+                        "ko": {
+                            "text": "장애물을 통과하는 [[캐주얼 모바일 게임]]입니다. 빠른 게임 세션을 위해 설계되었으며 간단한 조작법을 특징으로 합니다.",
+                            "tags": ["pixijs", "phaser", "크로스 플랫폼"]
+                        },
+                        "zh": {
+                            "text": "一款 [[休闲手机游戏]]，你需要控制一条鱼穿越障碍物。它设计用于快速游戏会话，并具有简单的控制方式。",
+                            "tags": ["pixijs", "phaser", "跨平台"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "categoryId": "category_mobile",
+                    "img": "images/content/logo-portfolio-stack-three.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.apple.com/", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://play.google.com/store/apps/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/content/screenshot-stack-three-1.png",
+                            "images/content/screenshot-stack-three-2.png",
+                            "images/content/screenshot-stack-three-1.png",
+                            "images/content/screenshot-stack-three-3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=R6z5-dwUVwM"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Stack Three",
+                            "text": "A [[casual puzzle game]] where you stack blocks to build the highest tower possible. It features simple mechanics and colorful graphics.",
+                            "tags": ["unity", "cross platform", "casual game"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco puzzle casual]] dove impili blocchi per costruire la torre più alta possibile. Presenta meccaniche semplici e grafica colorata.",
+                            "tags": ["unity", "cross platform", "gioco casuale"]
+                        },
+                        "ko": {
+                            "text": "블록을 쌓아 가능한 한 높은 탑을 만드는 [[캐주얼 퍼즐 게임]]입니다. 간단한 메커니즘과 화려한 그래픽을 특징으로 합니다.",
+                            "tags": ["unity", "크로스 플랫폼", "캐주얼 게임"]
+                        },
+                        "zh": {
+                            "text": "一款 [[休闲益智游戏]]，你需要堆叠方块来建造尽可能高的塔。它具有简单的机制和丰富多彩的图形。",
+                            "tags": ["unity", "跨平台", "休闲游戏"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "categoryId": "category_console",
+                    "img": "images/content/logo-portfolio-shark-hunter.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.ps.com/", "tooltipString": "see_on_ps_store", "faIcon": "fa-brands fa-playstation"},
+                            {"href": "https://www.steam.com/", "tooltipString": "see_on_steam", "faIcon": "fa-brands fa-steam"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Shark Hunter",
+                            "text": "A [[console/desktop]] game where you [[hunt sharks]] in various underwater environments. It features realistic graphics and immersive gameplay. The game is designed for quick play sessions and has a unique hunting mechanic.",
+                            "tags": ["console", "desktop", "shooter"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco console/desktop]] dove [[cacci i pesci]] in vari ambienti sottomarini. Presenta grafica realistica e un gameplay immersivo. Il gioco è progettato per sessioni di gioco rapide e ha una meccanica di caccia unica.",
+                            "tags": ["console", "desktop", "shooter"]
+                        },
+                        "ko": {
+                            "text": "다양한 수중 환경에서 [[상어를 사냥하는]] [[콘솔/데스크탑]] 게임입니다. 사실적인 그래픽과 몰입감 있는 게임 플레이를 특징으로 합니다. 게임은 빠른 플레이 세션을 위해 설계되었으며 독특한 사냥 메커니즘을 가지고 있습니다.",
+                            "tags": ["콘솔", "데스크탑", "슈터"]
+                        },
+                        "zh": {
+                            "text": "一款 [[主机/桌面]]游戏，你可以在各种水下环境中 [[捕猎鲨鱼]]。它具有逼真的图形和沉浸式的游戏体验。该游戏设计用于快速游戏会话，并具有独特的狩猎机制。",
+                            "tags": ["主机", "桌面", "射击"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "categoryId": "category_mobile",
+                    "img": "images/content/logo-portfolio-kitten-force.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.apple.com/", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://play.google.com/store/apps/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=AtPrjYp75uA"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kitten Force",
+                            "text": "An [[action-adventure game]] where you control a team of kittens to defeat enemies and solve puzzles. It combines action with strategic elements.",
+                            "tags": ["cocos-2d", "cross platform", "action"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco di azione-avventura]] dove controlli una squadra di gattini per sconfiggere nemici e risolvere enigmi. Combina azione con elementi strategici.",
+                            "tags": ["cocos-2d", "cross platform", "azione"]
+                        },
+                        "ko": {
+                            "text": "적을 물리치고 퍼즐을 푸는 [[액션 어드벤처 게임]]입니다. 액션과 전략적 요소를 결합합니다.",
+                            "tags": ["cocos-2d", "크로스 플랫폼", "액션"]
+                        },
+                        "zh": {
+                            "text": "一款 [[动作冒险游戏]]，你需要控制一队小猫来击败敌人和解决谜题。它结合了动作和战略元素。",
+                            "tags": ["cocos-2d", "跨平台", "动作"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "categoryId": "category_mobile",
+                    "img": "images/content/logo-portfolio-merge-zoo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.apple.com/", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://play.google.com/store/apps/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=sqeKgj80bUw"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Merge Zoo",
+                            "text": "A simple [[casual game]] where you merge animals to create new species and build your own zoo. It features colorful graphics and easy-to-learn mechanics.",
+                            "tags": ["godot", "cross platform", "casual"]
+                        },
+                        "it": {
+                            "text": "Un semplice [[gioco casual]] dove unisci animali per creare nuove specie e costruire il tuo zoo. Presenta grafica colorata e meccaniche facili da imparare.",
+                            "tags": ["godot", "cross platform", "casual"]
+                        },
+                        "ko": {
+                            "text": "간단한 [[캐주얼 게임]]으로, 동물을 합쳐 새로운 종을 만들고 자신의 동물원을 건설합니다. 화려한 그래픽과 배우기 쉬운 메커니즘을 특징으로 합니다.",
+                            "tags": ["godot", "크로스 플랫폼", "캐주얼"]
+                        },
+                        "zh": {
+                            "text": "一款简单的 [[休闲游戏]]，你可以合并动物来创造新物种并建立自己的动物园。它具有丰富多彩的图形和易于学习的机制。",
+                            "tags": ["godot", "跨平台", "休闲"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 6,
+                    "categoryId": "category_console",
+                    "img": "",
+                    "faIcon": "fa-brands fa-phoenix-framework",
+                    "faIconColors": {"bg": "#7e4600", "bgLight": "", "fill": "#fefe99", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.ps.com/", "tooltipString": "see_on_ps_store", "faIcon": "fa-brands fa-playstation"},
+                            {"href": "https://www.steam.com/", "tooltipString": "see_on_steam", "faIcon": "fa-brands fa-steam"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Rune Master",
+                            "text": "A [[console retro-style]] game where you cast spells by combining runes. It features pixel art graphics and a nostalgic gameplay experience. The game is designed for quick play sessions and has a unique spell-casting mechanic.",
+                            "tags": ["ps5", "xbox", "retro", "pixel art"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco console in stile retro]] dove lanci incantesimi combinando rune. Presenta grafica in pixel art e un'esperienza di gioco nostalgica. Il gioco è progettato per sessioni di gioco rapide e ha una meccanica unica di lancio degli incantesimi.",
+                            "tags": ["ps5", "xbox", "retro", "pixel art"]
+                        },
+                        "ko": {
+                            "text": "룬을 조합하여 주문을 시전하는 [[콘솔 레트로 스타일]] 게임입니다. 픽셀 아트 그래픽과 향수를 불러일으키는 게임 경험을 특징으로 합니다. 게임은 빠른 플레이 세션을 위해 설계되었으며 독특한 주문 시전 메커니즘을 가지고 있습니다.",
+                            "tags": ["ps5", "xbox", "레트로", "픽셀 아트"]
+                        },
+                        "zh": {
+                            "text": "一款 [[主机复古风格]]游戏，你可以通过组合符文来施放法术。它具有像素艺术图形和怀旧的游戏体验。该游戏设计用于快速游戏会话，并具有独特的施法机制。",
+                            "tags": ["ps5", "xbox", "复古", "像素艺术"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 7,
+                    "categoryId": "category_mobile",
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "#5a79c8", "bgLight": "", "fill": "#eeeeee", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.apple.com/", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://play.google.com/store/apps/", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=T8Df3VZCKUc"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Lost Robot",
+                            "text": "A [[platformer game]] where you navigate a lost robot through various levels filled with obstacles and enemies. It features classic platforming mechanics and engaging level design.",
+                            "tags": ["unity", "2d", "mobile", "platform"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco platformer]] dove navighi un robot smarrito attraverso vari livelli pieni di ostacoli e nemici. Presenta meccaniche classiche di platforming e un design di livelli coinvolgente.",
+                            "tags": ["unity", "2d", "mobile", "platform"]
+                        },
+                        "ko": {
+                            "text": "장애물과 적들로 가득 찬 다양한 레벨을 탐색하는 [[플랫폼 게임]]입니다. 클래식 플랫폼 메커니즘과 매력적인 레벨 디자인을 특징으로 합니다.",
+                            "tags": ["unity", "2d", "모바일", "플랫폼"]
+                        },
+                        "zh": {
+                            "text": "一款 [[平台游戏]]，你需要控制一个迷失的机器人穿越各种充满障碍和敌人的关卡。它具有经典的平台机制和引人入胜的关卡设计。",
+                            "tags": ["unity", "2d", "移动端", "平台"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "img": "images/content/logo-portfolio-snake.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "play_now", "faIcon": "fa-solid fa-play-circle"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Snake X",
+                            "text": "A [[browser-based game]] where you control a snake to collect items and grow longer. It features simple mechanics and is designed for quick play sessions.",
+                            "tags": ["canvas", "javascript", "browser"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco basato su browser]] dove controlli un serpente per raccogliere oggetti e crescere. Presenta meccaniche semplici ed è progettato per sessioni di gioco rapide.",
+                            "tags": ["canvas", "javascript", "browser"]
+                        },
+                        "ko": {
+                            "text": "아이템을 수집하고 길어지는 [[브라우저 기반 게임]]입니다. 간단한 메커니즘을 특징으로 하며 빠른 게임 세션을 위해 설계되었습니다.",
+                            "tags": ["캔버스", "자바스크립트", "브라우저"]
+                        },
+                        "zh": {
+                            "text": "一款 [[基于浏览器的游戏]]，你需要控制一条蛇来收集物品并变得更长。它具有简单的机制，并设计用于快速游戏会话。",
+                            "tags": ["canvas", "javascript", "浏览器"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 9,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-person-military-rifle",
+                    "faIconColors": {"bg": "#4d784e", "bgLight": "", "fill": "#e1d798", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "play_now", "faIcon": "fa-solid fa-play-circle"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tank Wars",
+                            "text": "A [[canvas game]] where you control a tank to battle against other tanks. It features simple mechanics and is designed for quick play sessions.",
+                            "tags": ["pixijs", "canvas", "javascript"]
+                        },
+                        "it": {
+                            "text": "Un [[gioco canvas]] dove controlli un carro armato per combattere contro altri carri armati. Presenta meccaniche semplici ed è progettato per sessioni di gioco rapide.",
+                            "tags": ["pixijs", "canvas", "javascript"]
+                        },
+                        "ko": {
+                            "text": "다른 탱크와 전투를 벌이는 [[캔버스 게임]]입니다. 간단한 메커니즘을 특징으로 하며 빠른 게임 세션을 위해 설계되었습니다.",
+                            "tags": ["pixijs", "캔버스", "자바스크립트"]
+                        },
+                        "zh": {
+                            "text": "一款 [[画布游戏]]，你需要控制一辆坦克与其他坦克作战。它具有简单的机制，并设计用于快速游戏会话。",
+                            "tags": ["pixijs", "canvas", "javascript"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

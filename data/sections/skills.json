@@ -1,0 +1,372 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Tech Stack}}"
+            },
+            "it": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Esplora",
+                "title_long": "Il mio {{Tech Stack}}"
+            },
+            "ko": {
+                "title_short": "기술 스택",
+                "title_short_nav": "기술 스택",
+                "title_long_prefix": "탐색",
+                "title_long": "내 {{기술 스택}}"
+            },
+            "zh": {
+                "title_short": "技术栈",
+                "title_short_nav": "技术栈",
+                "title_long_prefix": "探索",
+                "title_long": "我的 {{技术栈}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_languages": "Languages",
+                    "category_engines": "Engines",
+                    "category_frameworks": "Frameworks",
+                    "category_tools": "Tools"
+                },
+                "it": {
+                    "category_all": "Tutte",
+                    "category_languages": "Linguaggi",
+                    "category_engines": "Motori",
+                    "category_frameworks": "Framework",
+                    "category_tools": "Strumenti"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_languages": "언어",
+                    "category_engines": "엔진",
+                    "category_frameworks": "프레임워크",
+                    "category_tools": "도구"
+                },
+                "zh": {
+                    "category_all": "全部",
+                    "category_languages": "语言",
+                    "category_engines": "引擎",
+                    "category_frameworks": "框架",
+                    "category_tools": "工具"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_languages", "category_engines", "category_frameworks"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_languages",
+                    "img": "images/content/logo-csharp.png",
+                    "locales": { "en": { "title": "C#" } }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-swift",
+                    "faIconColors": { "fill": "#bf2232" },
+                    "locales": { "en": { "title": "Swift" } }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_languages",
+                    "img": "images/content/logo-cpp.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "C++" } }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": { "fill": "#f7df1e", "fillLight": "#a68732" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "JavaScript" } }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": { "fill": "#306998" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Python" } }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-moon",
+                    "faIconColors": { "fill": "#AAAAFF" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Lua" } }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": { "fill": "#007396" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Java" } }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-rust",
+                    "faIconColors": { "fill": "#dea584" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Rust" } }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": { "fill": "#3178c6" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "TypeScript" } }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-golang",
+                    "faIconColors": { "fill": "#00ADD8" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Go" } }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": { "fill": "#264de4" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "CSS3" } }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": { "fill": "#8892BF" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "PHP" } }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_engines",
+                    "img": "images/content/logo-unity.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Unity" } }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_engines",
+                    "faIcon": "fa-solid fa-u",
+                    "faIconColors": { "fill": "#eee", "fillLight": "#111" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Unreal Engine" } }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_engines",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": { "fill": "#066e9e", "fillLight": "#066e9e" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Godot" } }
+                },
+                {
+                    "id": 16,
+                    "categoryId": "category_engines",
+                    "faIcon": "fa-solid fa-eye",
+                    "faIconColors": { "fill": "#aaa", "fillLight": "#333" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "CryEngine" } }
+                },
+                {
+                    "id": 17,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-pix",
+                    "faIconColors": { "fill": "#d3308c" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "PixiJS" } }
+                },
+                {
+                    "id": 18,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-solid fa-seedling",
+                    "faIconColors": { "fill": "#76c043" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "MelonJS" } }
+                },
+                {
+                    "id": 19,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-solid fa-mountain",
+                    "faIconColors": { "fill": "#5e7b8c" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Urho3D" } }
+                },
+                {
+                    "id": 20,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": { "fill": "#a3d9ff", "fillLight": "#3e627a" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Cocos2D-x" } }
+                },
+                {
+                    "id": 21,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DBFB", "fillLight": "#357c8f" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "React" } }
+                },
+                {
+                    "id": 22,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-sass",
+                    "faIconColors": { "fill": "#CD6799" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "SCSS" } }
+                },
+                {
+                    "id": 23,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": { "fill": "#42b883" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Vue" } }
+                },
+                {
+                    "id": 24,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": { "fill": "#38BDF8" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Tailwind" } }
+                },
+                {
+                    "id": 25,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-angular",
+                    "faIconColors": { "fill": "#dd1b16" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Angular" } }
+                },
+                {
+                    "id": 26,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-laravel",
+                    "faIconColors": { "fill": "#fb503b" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Laravel" } }
+                },
+                {
+                    "id": 27,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": { "fill": "#83CD29" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Node.js" } }
+                },
+                {
+                    "id": 28,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-solid fa-dice-d20",
+                    "faIconColors": { "fill": "#a27cc8" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Three.js" } }
+                },
+                {
+                    "id": 29,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-rust",
+                    "faIconColors": { "fill": "#00ADD8" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Rust" } }
+                },
+                {
+                    "id": 30,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-terminal",
+                    "faIconColors": { "fill": "#888888" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Shell" } }
+                },
+                {
+                    "id": 31,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-dna",
+                    "faIconColors": { "fill": "#8e44ad" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "R" } }
+                },
+                {
+                    "id": 32,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": { "fill": "#f29111" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "SQL" } }
+                },
+                {
+                    "id": 33,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-puzzle-piece",
+                    "faIconColors": { "fill": "#00599C" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Ada" } }
+                },
+                {
+                    "id": 34,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-wave-square",
+                    "faIconColors": { "fill": "#00979D" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Verilog" } }
+                },
+                {
+                    "id": 35,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-music",
+                    "faIconColors": { "fill": "#ff6f61" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "MML" } }
+                },
+                {
+                    "id": 36,
+                    "categoryId": "category_engines",
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": { "fill": "#76c043" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "GDevelop" } }
+                },
+                {
+                    "id": 37,
+                    "categoryId": "category_engines",
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": { "fill": "#1a8cff" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Stride" } }
+                },
+                {
+                    "id": 38,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-s",
+                    "faIconColors": { "fill": "#ff3e00" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Svelte" } }
+                }
+            ]
+        }
+    ]
+}

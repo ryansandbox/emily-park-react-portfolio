@@ -1,0 +1,360 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Emily Park!}}"
+            },
+            "it": {
+                "title_short": "Benvenuto!",
+                "title_short_nav": "Chi sono",
+                "title_long_prefix": "Ciao...",
+                "title_long": "Sono {{Emily Park!}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "저에 대해",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "{{박하은}}입니다!"
+            },
+            "zh": {
+                "title_short": "欢迎！",
+                "title_short_nav": "关于我",
+                "title_long_prefix": "欢迎来到我的作品集...",
+                "title_long": "我是{{朴夏恩！}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Seattle – WA",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-regular fa-address-book"
+                },
+                {
+                    "id": 2,
+                    "label": "ems.park@msn.com",
+                    "link": {"href": "mailto:ems.park@msn.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "/in/emily-park",
+                    "link": {"href": "https://www.linkedin.com/in/", "tooltipString": "connect_with_me"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "it": {"title": "{{Un po'}} su di me..."},
+                "ko": {"title": "{{저에 대해}} 조금..."},
+                "zh": {"title": "{{关于我}}的一点点..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/cover-page-text-image.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{Game Developer}} with [[a strong foundation]] in gameplay programming, real-time graphics, and systems architecture. I specialize in using engines like Unity and Unreal Engine, with solid experience in C#, C++, and scripting tools.</p><p>I’ve contributed to both indie and mid-scale projects, handling everything from core mechanics and UI to performance optimization and multiplayer networking.</p><p>I'm passionate about crafting immersive experiences and can’t wait to build amazing games [[with you!]]</p>"
+                        },
+                        "it": {
+                            "text": "<p>Sono una {{Sviluppatrice di Giochi}} con [[una solida base]] nella programmazione del gameplay, grafica in tempo reale e architettura dei sistemi. Mi specializzo nell'uso di motori come Unity e Unreal Engine, con una solida esperienza in C#, C++ e strumenti di scripting.</p><p>Ho contribuito a progetti sia indie che di medie dimensioni, occupandomi di tutto, dalle meccaniche di base e UI all'ottimizzazione delle prestazioni e al networking multiplayer.</p><p>Sono appassionata di creare esperienze immersive e non vedo l'ora di costruire giochi fantastici [[con te!]]</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 {{게임 개발자로서}} [[게임플레이 프로그래밍]], 실시간 그래픽, 시스템 아키텍처에 대한 강력한 기초를 가지고 있습니다. Unity와 Unreal Engine과 같은 엔진을 사용하며, C#, C++, 스크립팅 도구에 대한 확고한 경험을 보유하고 있습니다.</p><p>인디 및 중규모 프로젝트에 기여하며 핵심 메커니즘, UI, 성능 최적화 및 멀티플레이어 네트워킹 등 다양한 작업을 처리했습니다.</p><p>몰입형 경험을 만드는 것에 열정을 가지고 있으며 [[당신과 함께]] 놀라운 게임을 만들기를 기대합니다!</p>"
+                        },
+                        "zh": {
+                            "text": "<p>我是一名{{游戏开发者}}，在游戏玩法编程、实时图形和系统架构方面有着[[坚实的基础]]。我专注于使用Unity和Unreal Engine等引擎，并在C#、C++和脚本工具方面有着扎实的经验。</p><p>我参与过独立和中型项目，处理从核心机制、用户界面到性能优化和多人网络等各个方面的工作。</p><p>我热衷于打造沉浸式体验，期待与您一起创造出令人惊叹的游戏！</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {"title": "My {{Certifications}}"},
+                "it": {"title": "Le mie {{Certificazioni}}"},
+                "ko": {"title": "나의 {{자격증}}"},
+                "zh": {"title": "我的{{认证}}"}
+            },
+            "settings": {
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/institution-logo-unity.jpg",
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "date": {"year": 2023, "month": 9},
+                    "link": {"href": "https://unity.com/products/unity-certifications", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Unity}} Certified Developer",
+                            "text": "Certified Unity Developer with expertise in real-time rendering and game mechanics."
+                        },
+                        "it": {
+                            "title": "{{Unity}} Sviluppatore Certificato",
+                            "text": "Sviluppatore Unity certificato con competenze in rendering in tempo reale e meccaniche di gioco."
+                        },
+                        "ko": {
+                            "title": "{{유니티}} 공인 개발자",
+                            "text": "실시간 렌더링 및 게임 메커니즘에 대한 전문 지식을 갖춘 공인 유니티 개발자."
+                        },
+                        "zh": {
+                            "title": "{{Unity}}认证开发者",
+                            "text": "具备实时渲染和游戏机制专业知识的Unity认证开发者。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "#0E1128", "bgLight": "#1C1F3A", "fill": "#FFF", "fillLight": "#FFF"},
+                    "date": {"year": 2025, "month": 3},
+                    "link": {"href": "https://www.unrealengine.com/en-US/certification", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Unreal Engine}} Certification",
+                            "text": "Official Unreal Engine certification, demonstrating proficiency in C++."
+                        },
+                        "it": {
+                            "title": "{{Unreal Engine}} Certificazione",
+                            "text": "Certificazione ufficiale di Unreal Engine, che dimostra competenza in C++."
+                        },
+                        "ko": {
+                            "title": "{{언리얼 엔진}} 인증",
+                            "text": "C++에 대한 능력을 입증하는 공식 언리얼 엔진 인증."
+                        },
+                        "zh": {
+                            "title": "{{虚幻引擎}}认证",
+                            "text": "官方虚幻引擎认证，证明在C++方面的熟练程度。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/content/institution-logo-ea.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "date": {"year": 2023, "month": 5},
+                    "link": {"href": "https://www.autodesk.com/certification", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{EA}} Certified Professional",
+                            "text": "3D modeling and animation for games using tools like Maya and 3ds Max."
+                        },
+                        "it": {
+                            "title": "{{EA}} Professionista Certificato",
+                            "text": "Modellazione 3D e animazione per giochi utilizzando strumenti come Maya e 3ds Max."
+                        },
+                        "ko": {
+                            "title": "{{EA}} 공인 전문가",
+                            "text": "Maya 및 3ds Max와 같은 도구를 사용한 게임용 3D 모델링 및 애니메이션."
+                        },
+                        "zh": {
+                            "title": "{{EA}}认证专业人士",
+                            "text": "使用Maya和3ds Max等工具进行游戏的3D建模和动画。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {"bg": "#232F3E", "bgLight": "#37475A", "fill": "#FF9900", "fillLight": "#FFB84D"},
+                    "date": {"year": 2024, "month": 10},
+                    "link": {"href": "https://aws.amazon.com/gametech/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{AWS Game Dev}} Certification",
+                            "text": "Multiplayer backend infrastructure, game server hosting, and cloud-based analytics."
+                        },
+                        "it": {
+                            "title": "{{AWS Game Dev}} Certificazione",
+                            "text": "Infrastruttura backend multiplayer, hosting di server di gioco e analisi basate su cloud."
+                        },
+                        "ko": {
+                            "title": "{{AWS 게임 개발}} 인증",
+                            "text": "멀티플레이어 백엔드 인프라, 게임 서버 호스팅 및 클라우드 기반 분석."
+                        },
+                        "zh": {
+                            "title": "{{AWS游戏开发}}认证",
+                            "text": "多玩家后端基础设施、游戏服务器托管和基于云的分析。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "{{Languages}} I speak"},
+                "it": {"title": "{{Lingue}} che parlo"},
+                "ko": {"title": "{{언어}} 능력"},
+                "zh": {"title": "{{语言}} 能力"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Native"
+                        },
+                        "it": {
+                            "title": "Inglese",
+                            "text": "Madrelingua con eccellenti capacità di comunicazione e scrittura.",
+                            "level": "Madrelingua"
+                        },
+                        "ko": {
+                            "title": "영어",
+                            "text": "원어민 수준의 의사소통 및 작문 능력.",
+                            "level": "원어민"
+                        },
+                        "zh": {
+                            "title": "英语",
+                            "text": "母语者，具有出色的沟通和写作能力。",
+                            "level": "母语"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/ko.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Korean",
+                            "text": "Fluent speaker with strong listening and speaking skills.",
+                            "level": "Fluent"
+                        },
+                        "it": {
+                            "title": "Coreano",
+                            "text": "Parlante fluente con solide capacità di ascolto e conversazione.",
+                            "level": "Fluente"
+                        },
+                        "ko": {
+                            "title": "한국어",
+                            "text": "유창하게 말하고 듣는 능력이 뛰어남.",
+                            "level": "유창함"
+                        },
+                        "zh": {
+                            "title": "韩语",
+                            "text": "流利的口语和听力能力。",
+                            "level": "流利"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/flags/zh.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Chinese",
+                            "text": "Intermediate skills with focus on reading and basic conversation.",
+                            "level": "Intermediate"
+                        },
+                        "it": {
+                            "title": "Cinese",
+                            "text": "Livello intermedio con attenzione alla lettura e conversazione di base.",
+                            "level": "Intermedio"
+                        },
+                        "ko": {
+                            "title": "중국어",
+                            "text": "읽기 및 기초 회화에 중점을 둔 중급 수준.",
+                            "level": "중급"
+                        },
+                        "zh": {
+                            "title": "中文",
+                            "text": "具有中级水平，注重阅读和基本对话。",
+                            "level": "中级"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/flags/it.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Italian",
+                            "text": "Beginner level with basic vocabulary and comprehension.",
+                            "level": "Beginner"
+                        },
+                        "it": {
+                            "title": "Italiano",
+                            "text": "Livello principiante con vocabolario e comprensione di base.",
+                            "level": "Principiante"
+                        },
+                        "ko": {
+                            "title": "이탈리아어",
+                            "text": "기본 어휘 및 이해력을 갖춘 초급 수준.",
+                            "level": "초급"
+                        },
+                        "zh": {
+                            "title": "意大利语",
+                            "text": "初级水平，掌握基础词汇和理解能力。",
+                            "level": "初级"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

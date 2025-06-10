@@ -1,0 +1,354 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Freelance Work",
+                "title_short_nav": "Freelancing",
+                "title_long_prefix": "You can hire my",
+                "title_long": "{{Freelance}} Services"
+            },
+            "it": {
+                "title_short": "Freelancing",
+                "title_short_nav": "Freelancing",
+                "title_long_prefix": "Puoi assumere i miei",
+                "title_long": "{{Freelance}} Servizi"
+            },
+            "ko": {
+                "title_short": "프리랜서",
+                "title_short_nav": "프리랜서",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{프리랜서}} 서비스"
+            },
+            "zh": {
+                "title_short": "自由职业",
+                "title_short_nav": "自由职业",
+                "title_long_prefix": "您可以雇用",
+                "title_long": "我的{{自由职业服务}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/freelance-page-text-image.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I've been working as a [[freelance game and web developer]] since 2019, delivering high-quality results across a wide range of projects. Whether building something from scratch or collaborating with teams on ongoing work, I’ve consistently brought ideas to life with creativity and technical skill.</p> <p>If you're interested in working with me, <a href='#contact'>feel free to reach out</a>. I'd be happy to discuss your project, budget, technical needs, and everything in between.</p>"
+                        },
+                        "it": {
+                            "text": "<p>Lavoro come [[sviluppatore di giochi e web freelance]] dal 2019, offrendo risultati di alta qualità in una vasta gamma di progetti. Che si tratti di costruire qualcosa da zero o di collaborare con team su lavori in corso, ho costantemente dato vita alle idee con creatività e abilità tecnica.</p> <p>Se sei interessato a lavorare con me, <a href='#contact'>sentiti libero di contattarmi</a>. Sarò felice di discutere del tuo progetto, del budget, delle esigenze tecniche e tutto il resto.</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 2019년부터 [[프리랜서 게임 및 웹 개발자]]로 활동하며 다양한 프로젝트에서 고품질 결과를 제공해 왔습니다. 처음부터 무언가를 만들거나 진행 중인 작업에 팀과 협력하든, 저는 항상 창의성과 기술력을 바탕으로 아이디어를 실현해 왔습니다.</p> <p>저와 함께 작업하는 데 관심이 있다면, <a href='#contact'>언제든지 연락해 주세요</a>. 프로젝트, 예산, 기술적 요구 사항 등에 대해 기꺼이 논의하겠습니다.</p>"
+                        },
+                        "zh": {
+                            "text": "<p>自2019年以来，我一直作为[[自由职业游戏和网络开发者]]工作，在各种项目中提供高质量的结果。无论是从头开始构建还是与团队合作进行中的工作，我始终以创造力和技术技能将想法变为现实。</p> <p>如果您有兴趣与我合作，<a href='#contact'>请随时联系我</a>。我很乐意讨论您的项目、预算、技术需求等一切。</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"},
+                "it": {"title": "Testimonianze dei {{clienti}}"},
+                "ko": {"title": "{{고객 후기}}"},
+                "zh": {"title": "{{客户评价}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Karen Smith",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Product Manager at [[EA Sports]]",
+                            "text": "Working with Emily was a [[game-changer for our project]]. Her expertise in game mechanics and real-time graphics brought our vision to life. She is a true professional and a pleasure to work with!"
+                        },
+                        "it": {
+                            "title": "Product Manager presso [[EA Sports]]",
+                            "text": "Lavorare con Emily è stato un [[cambiamento di gioco per il nostro progetto]]. La sua esperienza in meccaniche di gioco e grafica in tempo reale ha dato vita alla nostra visione. È una vera professionista ed è un piacere lavorare con lei!"
+                        },
+                        "ko": {
+                            "title": "[[EA Sports]]의 제품 관리자",
+                            "text": "Emily와 함께 일하는 것은 [[우리 프로젝트에 게임 체인저가 되었습니다]]. 그녀의 게임 메커니즘과 실시간 그래픽에 대한 전문 지식은 우리의 비전을 실현시켰습니다. 그녀는 진정한 전문가이며 함께 일하는 것이 즐거웠습니다!"
+                        },
+                        "zh": {
+                            "title": "[[EA Sports]]的产品经理",
+                            "text": "与Emily合作是我们项目的[[游戏改变者]]。她在游戏机制和实时图形方面的专业知识 使我们的愿景得以实现。她是一位真正的专业人士，与她合作非常愉快！"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "label": "Callum Wang",
+                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Lead Developer at [[Ketchapp Games]]",
+                            "text": "Emily was a great addition to our team. Her skills in C# and Unity [[were invaluable]], and she consistently delivered high-quality work on time. I [[highly recommend]] her for any game development project."
+                        },
+                        "it": {
+                            "title": "Sviluppatore Capo presso [[Ketchapp Games]]",
+                            "text": "Emily è stata una grande aggiunta al nostro team. Le sue competenze in C# e Unity [[sono state preziose]], e ha costantemente consegnato lavori di alta qualità in tempo. La [[consiglio vivamente]] per qualsiasi progetto di sviluppo di giochi."
+                        },
+                        "ko": {
+                            "title": "[[Ketchapp Games]]의 수석 개발자",
+                            "text": "Emily는 우리 팀에 훌륭한 추가 인력이었습니다. 그녀의 C# 및 Unity 기술은 [[매우 귀중했으며]], 그녀는 항상 고품질 작업을 제시간에 제공했습니다. 저는 그녀를 [[모든 게임 개발 프로젝트에 강력히 추천합니다]]."
+                        },
+                        "zh": {
+                            "title": "[[Ketchapp Games]]的首席开发者",
+                            "text": "Emily是我们团队的一个很好的补充。她在C#和Unity方面的技能[[非常宝贵]]，并且她始终按时交付高质量的工作。我 [[强烈推荐]] 她参与任何游戏开发项目。"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "label": "Amanda Lynch",
+                    "link": {"href": "https://google.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[Doodle Games]]",
+                            "text": "Loved working with Emily! Her [[passion]] for game development and her [[ability to solve complex problems]] made a huge difference in our project. Highly recommend her!"
+                        },
+                        "it": {
+                            "title": "CEO presso [[Doodle Games]]",
+                            "text": "Ho adorato lavorare con Emily! La sua [[passione]] per lo sviluppo di giochi e la sua [[capacità di risolvere problemi complessi]] hanno fatto una grande differenza nel nostro progetto. La consiglio vivamente!"
+                        },
+                        "ko": {
+                            "title": "[[Doodle Games]]의 CEO",
+                            "text": "Emily와 함께 일하는 것을 좋아했습니다! 그녀의 게임 개발에 대한 [[열정]]과 [[복잡한 문제를 해결하는 능력]]은 우리 프로젝트에 큰 차이를 만들었습니다. 그녀를 강력히 추천합니다!"
+                        },
+                        "zh": {
+                            "title": "[[Doodle Games]]的首席执行官",
+                            "text": "很喜欢与Emily合作！她对游戏开发的[[热情]]和[[解决复杂问题的能力]]对我们的项目产生了巨大影响。强烈推荐她！"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "label": "Luke Jordan",
+                    "link": {"href": "https://google.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Art Director at [[Pixel Perfect]]",
+                            "text": "Emily's work on our game was outstanding. Her attention to detail and ability to create immersive experiences [[set a new standard]] for our projects. I can't wait to work with her again!"
+                        },
+                        "it": {
+                            "title": "Direttore Artistico presso [[Pixel Perfect]]",
+                            "text": "Il lavoro di Emily sul nostro gioco è stato eccezionale. La sua attenzione ai dettagli e la capacità di creare esperienze immersive [[hanno stabilito un nuovo standard]] per i nostri progetti. Non vedo l'ora di lavorare di nuovo con lei!"
+                        },
+                        "ko": {
+                            "title": "[[Pixel Perfect]]의 아트 디렉터",
+                            "text": "우리 게임에서 Emily의 작업은 뛰어났습니다. 그녀의 세심한 주의와 몰입형 경험을 만드는 능력은 [[우리 프로젝트에 새로운 기준을 세웠습니다]]. 그녀와 다시 일하기를 기대합니다!"
+                        },
+                        "zh": {
+                            "title": "[[Pixel Perfect]]的艺术总监",
+                            "text": "Emily在我们游戏中的工作表现出色。她对细节的关注和创造沉浸式体验的能力[[为我们的项目设定了新的标准]]。我迫不及待想再次与她合作！"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "What {{I do}}"},
+                "it": {"title": "Cosa {{faccio}}"},
+                "ko": {"title": "내가 하는 일"},
+                "zh": {"title": "我做的事情"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Game {{Creation}}",
+                            "text": "I can build your game from scratch or help you with ongoing projects."
+                        },
+                        "it": {
+                            "title": "Creazione di {{giochi}}",
+                            "text": "Posso creare il tuo gioco da zero o aiutarti con progetti in corso."
+                        },
+                        "ko": {
+                            "title": "게임 {{제작}}",
+                            "text": "저는 게임을 처음부터 만들거나 진행 중인 프로젝트를 도와드릴 수 있습니다."
+                        },
+                        "zh": {
+                            "title": "游戏{{创建}}",
+                            "text": "我可以从头开始构建您的游戏或帮助您进行中的项目。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-puzzle-piece",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Gameplay {{Systems}}",
+                            "text": "I design and implement gameplay mechanics that are fun, balanced, and engaging."
+                        },
+                        "it": {
+                            "title": "Sistemi di {{gioco}}",
+                            "text": "Progetto e implemento meccaniche di gioco che sono divertenti, bilanciate e coinvolgenti."
+                        },
+                        "ko": {
+                            "title": "게임플레이 {{시스템}}",
+                            "text": "저는 재미있고 균형 잡힌 게임플레이 메커니즘을 설계하고 구현합니다."
+                        },
+                        "zh": {
+                            "title": "游戏玩法{{系统}}",
+                            "text": "我设计和实现有趣、平衡且引人入胜的游戏机制。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-paint-brush",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{UI/UX}} Design",
+                            "text": "I create user interfaces that are intuitive and visually appealing for players."
+                        },
+                        "it": {
+                            "title": "Design {{UI/UX}}",
+                            "text": "Creo interfacce utente che sono intuitive e visivamente attraenti per i giocatori."
+                        },
+                        "ko": {
+                            "title": "{{UI/UX}} 디자인",
+                            "text": "저는 플레이어에게 직관적이고 시각적으로 매력적인 사용자 인터페이스를 만듭니다."
+                        },
+                        "zh": {
+                            "title": "{{UI/UX}}设计",
+                            "text": "我创建直观且视觉上吸引玩家的用户界面。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-bug",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Code {{Polishing}}",
+                            "text": "I fix bugs, optimize performance, and refactor code to keep your game running smoothly."
+                        },
+                        "it": {
+                            "title": "{{Rifinitura}} del codice",
+                            "text": "Correggo bug, ottimizzo le prestazioni e ristrutturo il codice per mantenere il tuo gioco fluido."
+                        },
+                        "ko": {
+                            "title": "코드 {{다듬기}}",
+                            "text": "저는 버그를 수정하고 성능을 최적화하며 코드를 리팩토링하여 게임이 원활하게 실행되도록 합니다."
+                        },
+                        "zh": {
+                            "title": "代码{{润色}}",
+                            "text": "我修复错误，优化性能，并重构代码，以保持您的游戏运行顺畅。"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Multiplayer}} Integration",
+                            "text": "I implement online features like matchmaking, lobbies, and real-time gameplay."
+                        },
+                        "it": {
+                            "title": "Integrazione {{multigiocatore}}",
+                            "text": "Implemento funzionalità online come matchmaking, lobby e gameplay in tempo reale."
+                        },
+                        "ko": {
+                            "title": "{{멀티플레이어}} 통합",
+                            "text": "저는 매치메이킹, 로비 및 실시간 게임 플레이와 같은 온라인 기능을 구현합니다."
+                        },
+                        "zh": {
+                            "title": "{{多人游戏}}集成",
+                            "text": "我实现在线功能，如匹配、大厅和实时游戏。"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Analytics}} & Tracking",
+                            "text": "I add in-game analytics to help you understand player behavior and improve your game."
+                        },
+                        "it": {
+                            "title": "{{Analisi}} e tracciamento",
+                            "text": "Aggiungo analisi in-game per aiutarti a comprendere il comportamento dei giocatori e migliorare il tuo gioco."
+                        },
+                        "ko": {
+                            "title": "{{분석}} 및 추적",
+                            "text": "저는 게임 내 분석을 추가하여 플레이어 행동을 이해하고 게임을 개선하는 데 도움을 줍니다."
+                        },
+                        "zh": {
+                            "title": "{{分析}}和跟踪",
+                            "text": "我添加游戏内分析，帮助您了解玩家行为并改善您的游戏。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

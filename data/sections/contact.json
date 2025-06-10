@@ -1,0 +1,165 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "it": {
+                "title_short": "Contatti",
+                "title_short_nav": "Contatti",
+                "title_long_prefix": "Non esitare a",
+                "title_long": "{{Contact}} Me"
+            },
+            "ko": {
+                "title_short": "연락처",
+                "title_short_nav": "연락처",
+                "title_long_prefix": "주저하지 말고",
+                "title_long": "{{연락}} 주세요"
+            },
+            "zh": {
+                "title_short": "联系",
+                "title_short_nav": "联系",
+                "title_long_prefix": "请随时",
+                "title_long": "{{联系}} 我"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
+                "email_js_service_id": "service_4h8g7vb",
+                "email_js_template_id": "template_react"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "it": {
+                    "contact_thank_you_title": "{{Grazie}} per il contatto!",
+                    "contact_thank_you_body": "Ho ricevuto il tuo messaggio e ti contatterò presto. Apprezzo il tuo tempo e non vedo l'ora di connettermi con te!",
+                    "contact_thank_you_footer": "La risposta sarà inviata al tuo indirizzo email: {{$email}}",
+                    "title": "Inviami un {{messaggio}}"
+                },
+                "ko": {
+                    "contact_thank_you_title": "{{감사합니다}}!",
+                    "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
+                    "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
+                    "title": "{{메시지를}} 보내주세요"
+                },
+                "zh": {
+                    "contact_thank_you_title": "{{感谢}}您的联系！",
+                    "contact_thank_you_body": "您的消息已收到，我将尽快与您联系。感谢您的时间，期待与您交流！",
+                    "contact_thank_you_footer": "回复将发送到您的电子邮件地址：{{$email}}",
+                    "title": "给我发送一条{{消息}}"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "it": {"title": "Oppure se {{preferisci}}..."},
+                "ko": {"title": "또는 {{원하시면}}..."},
+                "zh": {"title": "或者如果你{{更喜欢}}..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+1 (123) 456-7890",
+                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "it": {"title": "Telefono"},
+                        "ko": {"title": "전화"},
+                        "zh": {"title": "电话"}
+                    }
+                },
+
+                {
+                    "id":2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "ems.park@mail.com",
+                    "link": {"href": "mailto:ems.park@mail.com", "tooltipString": "email_me"},
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "it": {"title": "E-mail"},
+                        "ko": {"title": "이메일"},
+                        "zh": {"title": "电子邮件"}
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@ems.park",
+                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "it": {"title": "LinkedIn"},
+                        "ko": {"title": "링크드인"},
+                        "zh": {"title": "领英"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-discord",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@emspark",
+                    "link": {"href": "https://discord.com", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "Discord"},
+                        "it": {"title": "Discord"},
+                        "ko": {"title": "디스코드"},
+                        "zh": {"title": "Discord"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@emilycodes",
+                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "it": {"title": "Instagram"},
+                        "ko": {"title": "인스타그램"},
+                        "zh": {"title": "Instagram"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-medium",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@emilycodes",
+                    "link": {"href": "https://medium.com/", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": { "title": "Medium" },
+                        "it": { "title": "Medium" },
+                        "ko": { "title": "미디엄" },
+                        "zh": { "title": "Medium" }
+                    }
+                }
+            ]
+        }
+    ]
+}

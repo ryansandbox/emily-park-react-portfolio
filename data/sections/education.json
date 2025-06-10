@@ -1,0 +1,221 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "it": {
+                "title_short": "Istruzione",
+                "title_short_nav": "Istruzione",
+                "title_long_prefix": "Questo è il mio",
+                "title_long": "Percorso {{Formativo}}"
+            },
+            "ko": {
+                "title_short": "교육",
+                "title_short_nav": "교육",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{교육적}} 배경"
+            },
+            "zh": {
+                "title_short": "教育",
+                "title_short_nav": "教育",
+                "title_long_prefix": "这是我的",
+                "title_long": "{{教育}} 背景"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/institution-university-british-columbia.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2017, "month": 4},
+                    "dateEnd": {"year": 2021, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor of {{Computer Science}}",
+                            "province": "Vancouver",
+                            "country": "Canada",
+                            "institution": "University of B.C.",
+                            "text": "Acquired a solid foundation in computer science principles, algorithms, and data structures. Engaged in various projects that enhanced my programming skills and understanding of software development.",
+                            "list": [],
+                            "tags": ["Computer Science", "Algorithms", "Data Structures"]
+                        },
+                        "it": {
+                            "title": "Laurea in {{Informatica}}",
+                            "province": "Vancouver",
+                            "country": "Canada",
+                            "institution": "",
+                            "text": "Ho acquisito una solida base nei principi dell'informatica, algoritmi e strutture dati. Ho partecipato a vari progetti che hanno migliorato le mie competenze di programmazione e comprensione dello sviluppo software.",
+                            "list": [],
+                            "tags": ["Informatica", "Algoritmi", "Strutture Dati"]
+                        },
+                        "ko": {
+                            "title": "{{컴퓨터 과학}} 학사",
+                            "province": "밴쿠버",
+                            "country": "캐나다",
+                            "institution": "",
+                            "text": "컴퓨터 과학 원칙, 알고리즘 및 데이터 구조에 대한 탄탄한 기초를 습득했습니다. 다양한 프로젝트에 참여하여 프로그래밍 기술과 소프트웨어 개발 이해도를 향상시켰습니다.",
+                            "list": [],
+                            "tags": ["컴퓨터 과학", "알고리즘", "데이터 구조"]
+                        },
+                        "zh": {
+                            "title": "{{计算机科学}}学士学位",
+                            "province": "温哥华",
+                            "country": "加拿大",
+                            "institution": "",
+                            "text": "获得了计算机科学原理、算法和数据结构的坚实基础。参与了各种项目，增强了我的编程技能和软件开发理解。",
+                            "list": [],
+                            "tags": ["计算机科学", "算法", "数据结构"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/content/institution-coursera.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2021, "month": 6},
+                    "dateEnd": {"year": 2021, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "Nanodegree in {{Unreal Engine}} Development",
+                            "province": "Remote",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "I have completed a Nanodegree program focused on Unreal Engine development. This course provided in-depth knowledge of the Unreal Engine ecosystem, including level design, blueprint scripting, and performance optimization. Key areas of focus included:",
+                            "list": [
+                                "Level Design and Environment Creation",
+                                "Blueprint Visual Scripting",
+                                "Performance Optimization Techniques",
+                                "Multiplayer Game Development"
+                            ],
+                            "tags": ["Unreal Engine", "Level Design", "Blueprint Scripting", "Performance Optimization"]
+                        },
+                        "it": {
+                            "title": "Nanodegree in Sviluppo con {{Unreal Engine}}",
+                            "province": "Remoto",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "Ho completato un programma di Nanodegree focalizzato sullo sviluppo con Unreal Engine. Questo corso ha fornito conoscenze approfondite sull'ecosistema di Unreal Engine, inclusi design dei livelli, scripting blueprint e ottimizzazione delle prestazioni. Le aree chiave di focus includevano:",
+                            "list": [
+                                "Design dei Livelli e Creazione di Ambienti",
+                                "Scripting Visuale Blueprint",
+                                "Tecniche di Ottimizzazione delle Prestazioni",
+                                "Sviluppo di Giochi Multiplayer"
+                            ],
+                            "tags": ["Unreal Engine", "Design dei Livelli", "Scripting Blueprint", "Ottimizzazione delle Prestazioni"]
+                        },
+                        "ko": {
+                            "title": "{{Unreal Engine}} 개발 나노디그리",
+                            "province": "원격",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "언리얼 엔진 개발에 중점을 둔 나노학위 프로그램을 완료했습니다. 이 과정은 언리얼 엔진 생태계에 대한 심층 지식을 제공하며, 레벨 디자인, 블루프린트 스크립팅 및 성능 최적화 등을 포함합니다. 주요 초점 영역은 다음과 같습니다:",
+                            "list": [
+                                "레벨 디자인 및 환경 생성",
+                                "블루프린트 비주얼 스크립팅",
+                                "성능 최적화 기술",
+                                "멀티플레이어 게임 개발"
+                            ],
+                            "tags": ["언리얼 엔진", "레벨 디자인", "블루프린트 스크립팅", "성능 최적화"]
+                        },
+                        "zh": {
+                            "title": "{{Unreal Engine}}开发纳米学位",
+                            "province": "远程",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "我完成了一个专注于虚幻引擎开发的纳米学位课程。该课程提供了对虚幻引擎生态系统的深入了解，包括关卡设计、蓝图脚本编写和性能优化。重点领域包括：",
+                            "list": [
+                                "关卡设计和环境创建",
+                                "蓝图可视化脚本编写",
+                                "性能优化技术",
+                                "多人游戏开发"
+                            ],
+                            "tags": ["虚幻引擎", "关卡设计", "蓝图脚本", "性能优化"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/content/institution-mit.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2022, "month": 8},
+                    "dateEnd": {"year": 2025, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "Master in Graphics and {{Game Development}}",
+                            "province": "",
+                            "country": "United States",
+                            "institution": "MIT",
+                            "text": "I have pursued a Master's degree focusing on advanced graphics techniques and game development methodologies. This program has equipped me with the skills to create immersive and interactive experiences in digital environments. During my course, I have mastered the following areas:",
+                            "list": [
+                                "Advanced Rendering Techniques",
+                                "Real-time Graphics Programming",
+                                "Game Engine Architecture",
+                                "Artificial Intelligence in Games"
+                            ],
+                            "tags": ["Game Development", "Graphics Programming", "AI in Games", "Rendering"]
+                        },
+                        "it": {
+                            "title": "Master in Sviluppo di {{Grafica e Giochi}}",
+                            "province": "",
+                            "country": "Stati Uniti",
+                            "institution": "",
+                            "text": "Sto perseguendo un Master focalizzato su tecniche avanzate di grafica e metodologie di sviluppo di giochi. Questo programma mi ha dotato delle competenze per creare esperienze immersive e interattive in ambienti digitali. Durante il mio corso, ho padroneggiato le seguenti aree:",
+                            "list": [
+                                "Tecniche Avanzate di Rendering",
+                                "Programmazione Grafica in Tempo Reale",
+                                "Architettura dei Motori di Gioco",
+                                "Intelligenza Artificiale nei Giochi"
+                            ],
+                            "tags": ["Sviluppo di Giochi", "Programmazione Grafica", "AI nei Giochi"]
+                        },
+                        "ko": {
+                            "title": "그래픽 및 {{게임 개발}} 석사",
+                            "province": "",
+                            "country": "미국",
+                            "institution": "",
+                            "text": "고급 그래픽 기술과 게임 개발 방법론에 중점을 둔 석사 과정을 진행하고 있습니다. 이 프로그램은 디지털 환경에서 몰입감 있고 상호작용적인 경험을 창출하는 데 필요한 기술을 갖추게 해주었습니다. 과정 중 다음 분야를 마스터했습니다:",
+                            "list": [
+                                "고급 렌더링 기술",
+                                "실시간 그래픽 프로그래밍",
+                                "게임 엔진 아키텍처",
+                                "게임의 인공지능"
+                            ],
+                            "tags": ["게임 개발", "그래픽 프로그래밍", "게임 AI"]
+                        },
+                        "zh": {
+                            "title": "图形与{{游戏开发}}硕士学位",
+                            "province": "",
+                            "country": "美国",
+                            "institution": "",
+                            "text": "我正在攻读一个专注于高级图形技术和游戏开发方法论的硕士学位。该项目使我具备了在数字环境中创建沉浸式和互动体验的技能。在我的课程中，我掌握了以下领域：",
+                            "list": [
+                                "高级渲染技术",
+                                "实时图形编程",
+                                "游戏引擎架构",
+                                "游戏中的人工智能"
+                            ],
+                            "tags": ["游戏开发", "图形编程", "游戏AI"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

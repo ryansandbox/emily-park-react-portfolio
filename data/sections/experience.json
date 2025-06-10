@@ -1,0 +1,314 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "it": {
+                "title_short": "Esperienza",
+                "title_short_nav": "Esperienza",
+                "title_long_prefix": "Questo è il mio",
+                "title_long": "{{Lavoro}} Esperienza"
+            },
+            "ko": {
+                "title_short": "경험",
+                "title_short_nav": "경험",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{직업적}} 경험"
+            },
+            "zh": {
+                "title_short": "经历",
+                "title_short_nav": "经历",
+                "title_long_prefix": "这是我的",
+                "title_long": "{{工作}} 经验"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-mintbit",
+                    "faIconColors": {"bg": "purple", "bgLight": "", "fill": "white", "fillLight": ""},
+                    "dateStart": {"year": 2019, "month": 3},
+                    "dateEnd": {"year": 2020, "month": 9},
+                    "locales": {
+                        "en": {
+                            "title": "Junior {{Unity Developer}}",
+                            "province": "Vancouver",
+                            "country": "Canada",
+                            "institution": "Pixel Perfect",
+                            "text": "I worked as a Junior Unity Developer at Pixel Perfect, where I was involved in developing [[interactive applications]] and [[games]] using Unity. My role included:",
+                            "list": [
+                                "Collaborating with the design team to create engaging user experiences.",
+                                "Implementing game mechanics and features in Unity.",
+                                "Optimizing performance for mobile platforms.",
+                                "Debugging and testing applications to ensure quality."
+                            ],
+                            "tags": ["c-sharp", "unity", "game development"]
+                        },
+                        "it": {
+                            "title": "Sviluppatore {{Unity Junior}}",
+                            "province": "Vancouver",
+                            "country": "Canada",
+                            "institution": "Pixel Perfect",
+                            "text": "Ho lavorato come Sviluppatore Unity Junior presso Pixel Perfect, dove mi sono occupato dello sviluppo di [[applicazioni interattive]] e [[giochi]] utilizzando Unity. Il mio ruolo includeva:",
+                            "list": [
+                                "Collaborare con il team di design per creare esperienze utente coinvolgenti.",
+                                "Implementare meccaniche di gioco e funzionalità in Unity.",
+                                "Ottimizzare le prestazioni per piattaforme mobili.",
+                                "Debugging e testing delle applicazioni per garantire la qualità."
+                            ],
+                            "tags": ["c-sharp", "unity", "sviluppo giochi"]
+                        },
+                        "ko": {
+                            "title": "주니어 {{유니티 개발자}}",
+                            "province": "밴쿠버",
+                            "country": "캐나다",
+                            "institution": "픽셀 퍼펙트",
+                            "text": "픽셀 퍼펙트에서 주니어 유니티 개발자로 일하면서 [[인터랙티브 애플리케이션]]과 [[게임]]을 유니티로 개발했습니다. 제 역할은 다음과 같았습니다:",
+                            "list": [
+                                "디자인 팀과 협력하여 매력적인 사용자 경험을 창출.",
+                                "유니티에서 게임 메커니즘 및 기능 구현.",
+                                "모바일 플랫폼의 성능 최적화.",
+                                "품질 보장을 위한 애플리케이션 디버깅 및 테스트."
+                            ],
+                            "tags": ["c-sharp", "unity", "게임 개발"]
+                        },
+                        "zh": {
+                            "title": "初级 {{Unity 开发者}}",
+                            "province": "温哥华",
+                            "country": "加拿大",
+                            "institution": "像素完美",
+                            "text": "我在像素完美担任初级 Unity 开发者，参与开发 [[互动应用]] 和 [[游戏]]。我的职责包括：",
+                            "list": [
+                                "与设计团队合作创建引人入胜的用户体验。",
+                                "在 Unity 中实现游戏机制和功能。",
+                                "优化移动平台的性能。",
+                                "调试和测试应用程序以确保质量。"
+                            ],
+                            "tags": ["c-sharp", "unity", "游戏开发"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-rockrms",
+                    "faIconColors": {"bg": "green", "bgLight": "", "fill": "white", "fillLight": ""},
+                    "dateStart": {"year": 2020, "month": 12},
+                    "dateEnd": {"year": 2022, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{Mobile}} Game Developer",
+                            "province": "Ontario",
+                            "country": "Canada",
+                            "institution": "Doodle Games",
+                            "text": "Working as a Mobile Game Developer at Doodle Games, I focused on creating [[engaging mobile games]]. My responsibilities included:",
+                            "list": [
+                                "Designing and implementing game features for iOS and Android platforms.",
+                                "Collaborating with artists and designers to create visually appealing games.",
+                                "Conducting user testing to gather feedback and improve gameplay.",
+                                "Maintaining and updating existing games to enhance user experience."
+                            ],
+                            "tags": ["pixi-js", "cross-platform", "mobile development", "game design"]
+                        },
+                        "it": {
+                            "title": "Sviluppatore {{Giochi Mobili}}",
+                            "province": "Ontario",
+                            "country": "Canada",
+                            "institution": "Doodle Games",
+                            "text": "Lavorando come Sviluppatore di Giochi Mobili presso Doodle Games, mi sono concentrato sulla creazione di [[giochi mobili coinvolgenti]]. Le mie responsabilità includevano:",
+                            "list": [
+                                "Progettare e implementare funzionalità di gioco per piattaforme iOS e Android.",
+                                "Collaborare con artisti e designer per creare giochi visivamente accattivanti.",
+                                "Condurre test utente per raccogliere feedback e migliorare il gameplay.",
+                                "Mantenere e aggiornare i giochi esistenti per migliorare l'esperienza utente."
+                            ],
+                            "tags": ["pixi-js", "cross-platform", "sviluppo mobile", "game design"]
+                        },
+                        "ko": {
+                            "title": "{{모바일}} 게임 개발자",
+                            "province": "온타리오",
+                            "country": "캐나다",
+                            "institution": "두들 게임즈",
+                            "text": "두들 게임즈에서 모바일 게임 개발자로 일하면서 [[매력적인 모바일 게임]]을 만드는 데 집중했습니다. 제 책임은 다음과 같았습니다:",
+                            "list": [
+                                "iOS 및 Android 플랫폼용 게임 기능 설계 및 구현.",
+                                "아티스트 및 디자이너와 협력하여 시각적으로 매력적인 게임 제작.",
+                                "사용자 테스트를 수행하여 피드백을 수집하고 게임 플레이 개선.",
+                                "기존 게임 유지 관리 및 업데이트하여 사용자 경험 향상."
+                            ],
+                            "tags": ["pixi-js", "크로스 플랫폼", "모바일 개발", "게임 디자인"]
+                        },
+                        "zh": {
+                            "title": "{{移动}} 游戏开发者",
+                            "province": "安大略省",
+                            "country": "加拿大",
+                            "institution": "涂鸦游戏",
+                            "text": "作为涂鸦游戏的移动游戏开发者，我专注于创建 [[引人入胜的移动游戏]]。我的职责包括：",
+                            "list": [
+                                "为 iOS 和 Android 平台设计和实现游戏功能。",
+                                "与艺术家和设计师合作，创建视觉上吸引人的游戏。",
+                                "进行用户测试以收集反馈并改善游戏玩法。",
+                                "维护和更新现有游戏以增强用户体验。"
+                            ],
+                            "tags": ["pixi-js", "跨平台", "移动开发", "游戏设计"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-kaggle",
+                    "faIconColors": {"bg": "#000b3e", "bgLight": "", "fill": "white", "fillLight": ""},
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "Freelance {{Game Developer}}",
+                            "province": "Remote",
+                            "country": "",
+                            "institution": "Ketchapp",
+                            "text": "I was hired to [[improve]] and [[maintain]] existing games at Ketchapp. My role involved:",
+                            "list": [
+                                "Analyzing game performance and user feedback to identify areas for improvement.",
+                                "Implementing updates and new features to enhance gameplay.",
+                                "Collaborating with the Ketchapp team to ensure games met quality standards.",
+                                "Testing and debugging games to ensure a smooth user experience."
+                            ],
+                            "tags": ["unity", "unreal engine", "game improvement", "testing"]
+                        },
+                        "it": {
+                            "title": "Sviluppatore {{Giochi Freelance}}",
+                            "province": "Remoto",
+                            "country": "",
+                            "institution": "Ketchapp",
+                            "text": "Sono stato assunto per [[migliorare]] e [[mantenere]] giochi esistenti presso Ketchapp. Il mio ruolo prevedeva:",
+                            "list": [
+                                "Analizzare le prestazioni del gioco e il feedback degli utenti per identificare aree di miglioramento.",
+                                "Implementare aggiornamenti e nuove funzionalità per migliorare il gameplay.",
+                                "Collaborare con il team di Ketchapp per garantire che i giochi soddisfacessero gli standard di qualità.",
+                                "Testare e fare debugging dei giochi per garantire un'esperienza utente fluida."
+                            ],
+                            "tags": ["unity", "unreal engine", "miglioramento giochi", "testing"]
+                        },
+                        "ko": {
+                            "title": "프리랜서 {{게임 개발자}}",
+                            "province": "원격",
+                            "country": "",
+                            "institution": "케챱",
+                            "text": "케챱에서 기존 게임을 [[개선]]하고 [[유지 관리]]하기 위해 고용되었습니다. 제 역할은 다음과 같았습니다:",
+                            "list": [
+                                "게임 성능 및 사용자 피드백 분석하여 개선 영역 식별.",
+                                "게임 플레이 향상을 위한 업데이트 및 새로운 기능 구현.",
+                                "케챱 팀과 협력하여 게임이 품질 기준을 충족하도록 보장.",
+                                "원활한 사용자 경험을 보장하기 위해 게임 테스트 및 디버깅."
+                            ],
+                            "tags": ["unity", "unreal engine", "게임 개선", "테스트"]
+                        },
+                        "zh": {
+                            "title": "自由职业 {{游戏开发者}}",
+                            "province": "远程",
+                            "country": "",
+                            "institution": "Ketchapp",
+                            "text": "我被聘用来 [[改进]] 和 [[维护]] Ketchapp 的现有游戏。我的角色包括：",
+                            "list": [
+                                "分析游戏性能和用户反馈，以识别改进领域。",
+                                "实施更新和新功能以增强游戏玩法。",
+                                "与 Ketchapp 团队合作，确保游戏符合质量标准。",
+                                "测试和调试游戏以确保流畅的用户体验。"
+                            ],
+                            "tags": ["unity", "unreal engine", "游戏改进", "测试"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "images/content/institution-logo-ea.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2023, "month": 4},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Senior {{Game Developer}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "EA Sports",
+                            "text": "I worked as a Senior Game Developer at EA Sports, where I led a team in developing high-quality sports games. This opportunity allowed me to:",
+                            "list": [
+                                "Lead a team of developers in creating innovative game features.",
+                                "Collaborate with designers and artists to deliver visually stunning games.",
+                                "Optimize game performance for various platforms.",
+                                "Mentor junior developers and provide technical guidance.",
+                                "Conduct code reviews to ensure quality and maintainability."
+                            ],
+                            "tags": ["unity", "unreal engine", "team leadership", "mentoring"]
+                        },
+                        "it": {
+                            "title": "Sviluppatore {{Giochi Senior}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "EA Sports",
+                            "text": "Ho lavorato come Sviluppatore di Giochi Senior presso EA Sports, dove ho guidato un team nello sviluppo di giochi sportivi di alta qualità. Questa opportunità mi ha permesso di:",
+                            "list": [
+                                "Guidare un team di sviluppatori nella creazione di funzionalità di gioco innovative.",
+                                "Collaborare con designer e artisti per offrire giochi visivamente straordinari.",
+                                "Ottimizzare le prestazioni del gioco per varie piattaforme.",
+                                "Mentorare sviluppatori junior e fornire guida tecnica.",
+                                "Condurre revisioni del codice per garantire qualità e manutenibilità."
+                            ],
+                            "tags": ["unity", "unreal engine", "leadership del team", "mentoring"]
+                        },
+                        "ko": {
+                            "title": "시니어 {{게임 개발자}}",
+                            "province": "캘리포니아",
+                            "country": "미국",
+                            "institution": "EA 스포츠",
+                            "text": "EA 스포츠에서 시니어 게임 개발자로 일하면서 고품질 스포츠 게임 개발을 이끄는 팀을 이끌었습니다. 이 기회를 통해 다음과 같은 경험을 쌓았습니다:",
+                            "list": [
+                                "혁신적인 게임 기능을 만드는 개발자 팀을 이끌었습니다.",
+                                "디자이너 및 아티스트와 협력하여 시각적으로 놀라운 게임을 제공합니다.",
+                                "다양한 플랫폼에 대한 게임 성능 최적화.",
+                                "주니어 개발자를 멘토링하고 기술적 지침 제공.",
+                                "품질과 유지 관리를 보장하기 위해 코드 리뷰를 수행했습니다."
+                            ],
+                            "tags": ["unity", "unreal engine", "팀 리더십", "멘토링"]
+                        },
+                        "zh": {
+                            "title": "高级 {{游戏开发者}}",
+                            "province": "加利福尼亚州",
+                            "country": "美国",
+                            "institution": "EA Sports",
+                            "text": "我在 EA Sports 担任高级游戏开发者，领导团队开发高质量的体育游戏。这次机会让我能够：",
+                            "list": [
+                                "领导开发团队创建创新的游戏功能。",
+                                "与设计师和艺术家合作，提供视觉上令人惊叹的游戏。",
+                                "优化各种平台的游戏性能。",
+                                "指导初级开发者并提供技术指导。",
+                                "进行代码审查以确保质量和可维护性。"
+                            ],
+                            "tags": ["unity", "unreal engine", "团队领导", "指导"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
