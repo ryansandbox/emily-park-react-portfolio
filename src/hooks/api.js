@@ -47,7 +47,8 @@ const validators = {
                 from_email: email,
                 custom_subject: subject,
                 message: message,
-                custom_source: utils.url.getAbsoluteLocation()
+                custom_source: utils.url.getAbsoluteLocation(),
+                custom_source_name: "React Portfolio"
             }
         }
     }
@@ -58,7 +59,7 @@ const handlers = {
      * @return {Promise<{success: (*|boolean)}>}
      */
     dummyRequest: async () => {
-        await new Promise((resolve) => setTimeout(resolve, 500))
+        await new Promise((resolve) => setTimeout(resolve, 700))
         window._dummyRequestSuccess = !window._dummyRequestSuccess
 
         return {
@@ -80,7 +81,7 @@ const handlers = {
 
         try {
             const result = await emailjs.send(serviceId, templateId, validationBundle)
-            response.success = true
+            response.success = result.status === 200
         } catch (error) {
             response.success = false
         }
