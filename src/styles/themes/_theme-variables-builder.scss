@@ -82,6 +82,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
 
         --theme-card-background-accent: #{lighten($theme-card-background, 2%)};
         --theme-boards-background-accent: #{darken($theme-boards-background, 2%)};
+        --theme-boards-background-accent-inv: #{lighten($theme-boards-background, 1%)};
         --theme-section-background-accent: #{lighten($theme-section-background, 3%)};
         --theme-section-background-accent-inv: #{darken($theme-section-background, 3%)};
 
@@ -102,6 +103,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
 
         --theme-card-background-accent: #{darken($theme-card-background, 2%)};
         --theme-boards-background-accent: #{darken($theme-boards-background, 2%)};
+        --theme-boards-background-accent-inv: #{lighten($theme-boards-background, 0%)};
         --theme-section-background-accent: #{darken($theme-section-background, 5%)};
         --theme-section-background-accent-inv: #{lighten($theme-section-background, 5%)};
 
