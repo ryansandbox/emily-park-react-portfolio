@@ -1,4 +1,4 @@
-# 🌸 React Portfolio Template – [Emily Park](https://rbtutorials.github.io/emily-park-react-portfolio/)
+# 🌸 React Portfolio Template – [Emily Park](https://ryansandbox.github.io/emily-park-react-portfolio/)
 
 This project is a customized version of [React Portfolio Template](https://github.com/ryanbalieiro/react-portfolio-template) originally developed by **Ryan Balieiro**.
 
@@ -6,7 +6,7 @@ It showcases the fictional resume of a Game Developer named **Emily Park**, feat
 
 ## 🚀 Live Demo
 
-[Click here](https://rbtutorials.github.io/emily-park-react-portfolio) to view the live preview.
+[Click here](https://ryansandbox.github.io/emily-park-react-portfolio/) to view the live preview.
 
 ## Getting Started
 
