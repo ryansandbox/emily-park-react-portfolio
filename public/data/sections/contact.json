@@ -7,27 +7,26 @@
                 "title_long_prefix": "Don't hesitate to",
                 "title_long": "{{Contact}} Me"
             },
-            "es": {
-                "title_short": "Contacto",
-                "title_short_nav": "Contacto",
-                "title_long_prefix": "No dudes en",
-                "title_long": "{{Contácta}}me"
-            },
-            "fr": {
-                "title_short": "Contact",
-                "title_short_nav": "Contact",
-                "title_long_prefix": "N'hésitez pas à",
-                "title_long": "Me {{Contacter}}"
+            "it": {
+                "title_short": "Contatti",
+                "title_short_nav": "Contatti",
+                "title_long_prefix": "Non esitare a",
+                "title_long": "{{Contact}} Me"
             },
             "ko": {
                 "title_short": "연락처",
                 "title_short_nav": "연락처",
                 "title_long_prefix": "주저하지 말고",
                 "title_long": "{{연락}} 주세요"
+            },
+            "zh": {
+                "title_short": "联系",
+                "title_short_nav": "联系",
+                "title_long_prefix": "请随时",
+                "title_long": "{{联系}} 我"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -44,23 +43,23 @@
                     "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
                     "title": "Send me a {{message}}"
                 },
-                "es": {
-                    "contact_thank_you_title": "{{Gracias}} por el contacto!",
-                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
-                    "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
-                    "title": "Envíame un {{mensaje}}"
-                },
-                "fr": {
-                    "contact_thank_you_title": "{{Merci}} pour le contact!",
-                    "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
-                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
-                    "title": "Envoyez-moi un {{message}}"
+                "it": {
+                    "contact_thank_you_title": "{{Grazie}} per il contatto!",
+                    "contact_thank_you_body": "Ho ricevuto il tuo messaggio e ti contatterò presto. Apprezzo il tuo tempo e non vedo l'ora di connettermi con te!",
+                    "contact_thank_you_footer": "La risposta sarà inviata al tuo indirizzo email: {{$email}}",
+                    "title": "Inviami un {{messaggio}}"
                 },
                 "ko": {
                     "contact_thank_you_title": "{{감사합니다}}!",
                     "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
                     "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
                     "title": "{{메시지를}} 보내주세요"
+                },
+                "zh": {
+                    "contact_thank_you_title": "{{感谢}}您的联系！",
+                    "contact_thank_you_body": "您的消息已收到，我将尽快与您联系。感谢您的时间，期待与您交流！",
+                    "contact_thank_you_footer": "回复将发送到您的电子邮件地址：{{$email}}",
+                    "title": "给我发送一条{{消息}}"
                 }
             },
             "items": null
@@ -75,9 +74,9 @@
             },
             "locales": {
                 "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."},
-                "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
+                "it": {"title": "Oppure se {{preferisci}}..."},
+                "ko": {"title": "또는 {{원하시면}}..."},
+                "zh": {"title": "或者如果你{{更喜欢}}..."}
             },
             "items": [
                 {
@@ -88,64 +87,76 @@
                     "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
                     "locales": {
                         "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "it": {"title": "Telefono"},
+                        "ko": {"title": "전화"},
+                        "zh": {"title": "电话"}
                     }
                 },
+
                 {
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "label": "ems.park@mail.com",
+                    "link": {"href": "mailto:ems.park@mail.com", "tooltipString": "email_me"},
                     "locales": {
                         "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "it": {"title": "E-mail"},
+                        "ko": {"title": "이메일"},
+                        "zh": {"title": "电子邮件"}
                     }
                 },
+
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
+                    "label": "@ems.park",
                     "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
+                        "it": {"title": "LinkedIn"},
+                        "ko": {"title": "링크드인"},
+                        "zh": {"title": "领英"}
                     }
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
+                    "faIcon": "fa-brands fa-discord",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
+                    "label": "@emspark",
+                    "link": {"href": "https://discord.com", "tooltipString": "open_website"},
                     "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
+                        "en": {"title": "Discord"},
+                        "it": {"title": "Discord"},
+                        "ko": {"title": "디스코드"},
+                        "zh": {"title": "Discord"}
                     }
                 },
                 {
                     "id": 5,
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
+                    "label": "@emilycodes",
                     "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "it": {"title": "Instagram"},
+                        "ko": {"title": "인스타그램"},
+                        "zh": {"title": "Instagram"}
                     }
                 },
                 {
                     "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
+                    "faIcon": "fa-brands fa-medium",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
+                    "label": "@emilycodes",
+                    "link": {"href": "https://medium.com/", "tooltipString": "open_website"},
                     "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": { "title": "Medium" },
+                        "it": { "title": "Medium" },
+                        "ko": { "title": "미디엄" },
+                        "zh": { "title": "Medium" }
                     }
                 }
             ]

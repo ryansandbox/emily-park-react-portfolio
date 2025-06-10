@@ -5,28 +5,28 @@
 
 @import "theme-variables-builder";
 
-$primary: #9dff8e;
+$primary: #f6aae6;
 $secondary: #a4afb5;
-$dark: darken(#181818, 1%);
-$danger: #fdd2d2;
+$dark: darken(#212121, 2%);
+$danger: #fdcfd7;
 $muted: #6c757d;
 
 $base-bg: #0c0c0c;
-$base-bg-light: #161616;
+$base-bg-light: #1a1a1a;
 $base-bg-dark: #090909;
 
 $texts: #EEEEEE;
 $texts-inverted: #111111;
 
-$base-container-bg: #181818;
+$base-container-bg: #212121;
 $base-container-bg-accent: #1f1f1f;
 $base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 4%);
+$base-boards: lighten($base-container-bg, 3%);
 $base-info-badges: lighten($dark, 3%);
-$empty: darken($base-container-bg, 3%);
+$empty: lighten($base-bg, 4%);
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
+$borders: #262626;
+$scrollbar-track: #111111;
 $scrollbar-thumb: #32343a;
 
 :root {
@@ -49,11 +49,11 @@ $scrollbar-thumb: #32343a;
         /** TEXTS (INVERTED): **/           $texts-inverted,
 
         // Nav
-        /** NAV MOBILE BG: **/              #131313,
+        /** NAV MOBILE BG: **/              $base-container-bg-accent,
         /** NAV MOBILE: **/                 $texts,
         /** NAV MOBILE BORDER: **/          $borders,
 
-        /** NAV MOBILE HOVER BG: **/        #131313,
+        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
         /** NAV MOBILE HOVER: **/           $primary,
 
         /** NAV MOBILE SELECTED BG: **/     $borders,

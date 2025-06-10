@@ -4,40 +4,72 @@
             "id": "home",
             "faIcon": "fa-regular fa-user",
             "locales": {
-                "en": {"title": "Home"},
-                "es": {"title": "Inicio"},
-                "fr": {"title": "Accueil"},
-                "ko": {"title": "홈페이지"}
+                "en": {
+                    "title": "Home"
+                },
+                "it": {
+                    "title": "Home"
+                },
+                "ko": {
+                    "title": "홈"
+                },
+                "zh": {
+                    "title": "首页"
+                }
             }
         },
         {
             "id": "background",
             "faIcon": "fa-regular fa-clock",
             "locales": {
-                "en": {"title": "History"},
-                "es": {"title": "Trayectoria"},
-                "fr": {"title": "Parcours"},
-                "ko": {"title": "경력"}
+                "en": {
+                    "title": "History"
+                },
+                "it": {
+                    "title": "Cronologia"
+                },
+                "ko": {
+                    "title": "기록"
+                },
+                "zh": {
+                    "title": "历史"
+                }
             }
         },
         {
             "id": "showcase",
             "faIcon": "fa-regular fa-folder-open",
             "locales": {
-                "en": {"title": "Showcase"},
-                "es": {"title": "Vitrina"},
-                "fr": {"title": "Vitrine"},
-                "ko": {"title": "쇼케이스"}
+                "en": {
+                    "title": "Showcase"
+                },
+                "it": {
+                    "title": "Vetrina"
+                },
+                "ko": {
+                    "title": "쇼케이스"
+                },
+                "zh": {
+                    "title": "展示"
+                }
             }
         },
         {
             "id": "more",
             "faIcon": "fa-regular fa-object-ungroup",
             "locales": {
-                "en": {"title": "More"},
-                "es": {"title": "Más"},
-                "fr": {"title": "Plus"},
-                "ko": {"title": "더보기"}
+                "en": {
+                    "title": "More"
+                },
+                "it": {
+                    "title": "Altro"
+                },
+                "ko": {
+                    "title": "더보기"
+                },
+                "zh": {
+                    "title": "更多"
+                }
             }
         }
     ]

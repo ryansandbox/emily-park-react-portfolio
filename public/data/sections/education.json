@@ -7,27 +7,26 @@
                 "title_long_prefix": "This is my",
                 "title_long": "{{Education}} Background"
             },
-            "es": {
-                "title_short": "Educación",
-                "title_short_nav": "Educación",
-                "title_long_prefix": "Esta es mi",
-                "title_long": "{{Formación}} Educativa"
-            },
-            "fr": {
-                "title_short": "Éducation",
-                "title_short_nav": "Éducation",
-                "title_long_prefix": "C'est mon",
-                "title_long": "{{Contexte}} Éducatif"
+            "it": {
+                "title_short": "Istruzione",
+                "title_short_nav": "Istruzione",
+                "title_long_prefix": "Questo è il mio",
+                "title_long": "Percorso {{Formativo}}"
             },
             "ko": {
                 "title_short": "교육",
                 "title_short_nav": "교육",
                 "title_long_prefix": "이것은 내",
                 "title_long": "{{교육적}} 배경"
+            },
+            "zh": {
+                "title_short": "教育",
+                "title_short_nav": "教育",
+                "title_long_prefix": "这是我的",
+                "title_long": "{{教育}} 背景"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -40,228 +39,179 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/timeline-place-udacity.png",
+                    "img": "images/content/institution-university-british-columbia.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2014, "month": 1},
-                    "dateEnd": {"year": 2014, "month": 6},
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2017, "month": 4},
+                    "dateEnd": {"year": 2021, "month": 3},
                     "locales": {
                         "en": {
-                            "title": "PHP Development {{Nanodegree}}",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "Udacity",
-                            "text": "Successfully completed an intensive Nanodegree program with a strong emphasis on [[PHP development]], where I gained comprehensive, hands-on experience in building dynamic and scalable web applications.",
+                            "title": "Bachelor of {{Computer Science}}",
+                            "province": "Vancouver",
+                            "country": "Canada",
+                            "institution": "University of B.C.",
+                            "text": "Acquired a solid foundation in computer science principles, algorithms, and data structures. Engaged in various projects that enhanced my programming skills and understanding of software development.",
                             "list": [],
-                            "tags": []
+                            "tags": ["Computer Science", "Algorithms", "Data Structures"]
                         },
-                        "es": {
-                            "title": "Desarrollo en PHP {{Nanodegree}}",
-                            "province": "",
-                            "country": "Remoto",
-                            "institution": "Udacity",
-                            "text": "Completé con éxito un programa intensivo de Nanodegree con un fuerte enfoque en [[PHP development]], donde adquirí una experiencia práctica y completa en la creación de aplicaciones web dinámicas y escalables.",
-                            "list": []
-                        },
-                        "fr": {
-                            "title": "Développement PHP {{Nanodegree}}",
-                            "province": "",
-                            "country": "À distance",
-                            "institution": "Udacity",
-                            "text": "J'ai terminé avec succès un programme Nanodegree intensif axé sur [[PHP development]], au cours duquel j'ai acquis une expérience pratique approfondie dans la création d'applications web dynamiques et évolutives.",
-                            "list": []
+                        "it": {
+                            "title": "Laurea in {{Informatica}}",
+                            "province": "Vancouver",
+                            "country": "Canada",
+                            "institution": "",
+                            "text": "Ho acquisito una solida base nei principi dell'informatica, algoritmi e strutture dati. Ho partecipato a vari progetti che hanno migliorato le mie competenze di programmazione e comprensione dello sviluppo software.",
+                            "list": [],
+                            "tags": ["Informatica", "Algoritmi", "Strutture Dati"]
                         },
                         "ko": {
-                            "title": "PHP 개발 {{Nanodegree}}",
-                            "province": "",
-                            "country": "원격",
-                            "institution": "Udacity",
-                            "text": "[[PHP development]]에 중점을 둔 집중형 나노디그리 프로그램을 성공적으로 수료했으며, 동적이고 확장 가능한 웹 애플리케이션을 구축하는 데 있어 폭넓고 실용적인 경험을 쌓았습니다.",
-                            "list": []
+                            "title": "{{컴퓨터 과학}} 학사",
+                            "province": "밴쿠버",
+                            "country": "캐나다",
+                            "institution": "",
+                            "text": "컴퓨터 과학 원칙, 알고리즘 및 데이터 구조에 대한 탄탄한 기초를 습득했습니다. 다양한 프로젝트에 참여하여 프로그래밍 기술과 소프트웨어 개발 이해도를 향상시켰습니다.",
+                            "list": [],
+                            "tags": ["컴퓨터 과학", "알고리즘", "데이터 구조"]
+                        },
+                        "zh": {
+                            "title": "{{计算机科学}}学士学位",
+                            "province": "温哥华",
+                            "country": "加拿大",
+                            "institution": "",
+                            "text": "获得了计算机科学原理、算法和数据结构的坚实基础。参与了各种项目，增强了我的编程技能和软件开发理解。",
+                            "list": [],
+                            "tags": ["计算机科学", "算法", "数据结构"]
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "img": "images/pictures/timeline-place-mit.png",
+                    "img": "images/content/institution-coursera.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2016, "month": 1},
-                    "dateEnd": {"year": 2020, "month": 12},
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2021, "month": 6},
+                    "dateEnd": {"year": 2021, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Bachelor}} in Computer Science",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "MIT",
-                            "text": "Earned a [[Bachelor's degree in Computer Science]], focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects, coding boot camps, and many collaborative team-based software development activities.",
-                            "list": [],
-                            "tags": []
+                            "title": "Nanodegree in {{Unreal Engine}} Development",
+                            "province": "Remote",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "I have completed a Nanodegree program focused on Unreal Engine development. This course provided in-depth knowledge of the Unreal Engine ecosystem, including level design, blueprint scripting, and performance optimization. Key areas of focus included:",
+                            "list": [
+                                "Level Design and Environment Creation",
+                                "Blueprint Visual Scripting",
+                                "Performance Optimization Techniques",
+                                "Multiplayer Game Development"
+                            ],
+                            "tags": ["Unreal Engine", "Level Design", "Blueprint Scripting", "Performance Optimization"]
                         },
-                        "es": {
-                            "title": "{{Grado}} en Ciencias de la Computación",
-                            "province": "Massachusetts",
-                            "country": "EE. UU.",
-                            "institution": "MIT",
-                            "text": "Obtuve un [[grado en Ciencias de la Computación]], con enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de diversos proyectos de programación, bootcamps de codificación y actividades colaborativas de desarrollo en equipo.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "{{Licence}} en informatique",
-                            "province": "Massachusetts",
-                            "country": "États-Unis",
-                            "institution": "MIT",
-                            "text": "J'ai obtenu une [[licence en informatique]], avec un accent sur les algorithmes, les structures de données, l’ingénierie logicielle et le développement web. J'ai acquis une solide expérience pratique grâce à divers projets de programmation, des bootcamps de code et des activités collaboratives en équipe.",
-                            "list": [],
-                            "tags": []
+                        "it": {
+                            "title": "Nanodegree in Sviluppo con {{Unreal Engine}}",
+                            "province": "Remoto",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "Ho completato un programma di Nanodegree focalizzato sullo sviluppo con Unreal Engine. Questo corso ha fornito conoscenze approfondite sull'ecosistema di Unreal Engine, inclusi design dei livelli, scripting blueprint e ottimizzazione delle prestazioni. Le aree chiave di focus includevano:",
+                            "list": [
+                                "Design dei Livelli e Creazione di Ambienti",
+                                "Scripting Visuale Blueprint",
+                                "Tecniche di Ottimizzazione delle Prestazioni",
+                                "Sviluppo di Giochi Multiplayer"
+                            ],
+                            "tags": ["Unreal Engine", "Design dei Livelli", "Scripting Blueprint", "Ottimizzazione delle Prestazioni"]
                         },
                         "ko": {
-                            "title": "컴퓨터 과학 {{학사}}",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "MIT",
-                            "text": "알고리즘, 자료 구조, 소프트웨어 공학, 웹 개발에 중점을 둔 [[컴퓨터 과학 학사 학위]]를 취득하였습니다. 다양한 프로그래밍 프로젝트, 코딩 부트캠프, 그리고 팀 기반의 협업 활동을 통해 실무 경험을 쌓았습니다.",
-                            "list": [],
-                            "tags": []
+                            "title": "{{Unreal Engine}} 개발 나노디그리",
+                            "province": "원격",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "언리얼 엔진 개발에 중점을 둔 나노학위 프로그램을 완료했습니다. 이 과정은 언리얼 엔진 생태계에 대한 심층 지식을 제공하며, 레벨 디자인, 블루프린트 스크립팅 및 성능 최적화 등을 포함합니다. 주요 초점 영역은 다음과 같습니다:",
+                            "list": [
+                                "레벨 디자인 및 환경 생성",
+                                "블루프린트 비주얼 스크립팅",
+                                "성능 최적화 기술",
+                                "멀티플레이어 게임 개발"
+                            ],
+                            "tags": ["언리얼 엔진", "레벨 디자인", "블루프린트 스크립팅", "성능 최적화"]
+                        },
+                        "zh": {
+                            "title": "{{Unreal Engine}}开发纳米学位",
+                            "province": "远程",
+                            "country": "",
+                            "institution": "Coursera",
+                            "text": "我完成了一个专注于虚幻引擎开发的纳米学位课程。该课程提供了对虚幻引擎生态系统的深入了解，包括关卡设计、蓝图脚本编写和性能优化。重点领域包括：",
+                            "list": [
+                                "关卡设计和环境创建",
+                                "蓝图可视化脚本编写",
+                                "性能优化技术",
+                                "多人游戏开发"
+                            ],
+                            "tags": ["虚幻引擎", "关卡设计", "蓝图脚本", "性能优化"]
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/timeline-place-university-paris.png",
+                    "img": "images/content/institution-mit.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2020, "month": 9},
-                    "dateEnd": {"year": 2022, "month": 6},
-                    "locales": {
-                        "en": {
-                            "title": "{{Master's}} in Artificial Intelligence",
-                            "province": "",
-                            "country": "France",
-                            "institution": "University of Paris",
-                            "text": "Completed a comprehensive Master's program focused on [[cutting-edge AI topics]], including:",
-                            "list": [
-                                "Machine Learning",
-                                "Natural Language Processing (NLP)",
-                                "Neural Networks"
-                            ],
-                            "tags": [
-                                "Neural Networks",
-                                "Machine Learning"
-                            ]
-                        },
-                        "es": {
-                            "title": "{{Máster}} en Inteligencia Artificial",
-                            "province": "",
-                            "country": "Francia",
-                            "institution": "Universidad de París",
-                            "text": "Completé un programa de máster integral centrado en [[temas avanzados de IA]], incluyendo:",
-                            "list": [
-                                "Aprendizaje automático",
-                                "Procesamiento del lenguaje natural (PLN)",
-                                "Redes neuronales"
-                            ],
-                            "tags": [
-                                "Redes neuronales",
-                                "Aprendizaje automático"
-                            ]
-                        },
-                        "fr": {
-                            "title": "{{Master}} en Intelligence Artificielle",
-                            "province": "",
-                            "country": "France",
-                            "institution": "Université de Paris",
-                            "text": "J'ai terminé un programme de master complet axé sur [[les sujets avancés en IA]], notamment :",
-                            "list": [
-                                "Apprentissage automatique",
-                                "Traitement du langage naturel (NLP)",
-                                "Réseaux de neurones"
-                            ],
-                            "tags": [
-                                "Réseaux de neurones",
-                                "Apprentissage automatique"
-                            ]
-                        },
-                        "ko": {
-                            "title": "인공지능 {{석사}}",
-                            "province": "",
-                            "country": "프랑스",
-                            "institution": "파리 대학교",
-                            "text": "[[최첨단 인공지능 주제]]를 중심으로 한 종합적인 석사 과정을 수료하였으며, 주요 내용은 다음과 같습니다:",
-                            "list": [
-                                "머신러닝",
-                                "자연어 처리 (NLP)",
-                                "신경망"
-                            ],
-                            "tags": [
-                                "신경망",
-                                "머신러닝"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "images/pictures/timeline-place-harvard.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2022, "month": 9},
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2022, "month": 8},
                     "dateEnd": {"year": 2025, "month": 6},
                     "locales": {
                         "en": {
-                            "title": "{{PhD}} in Computer Science",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "Harvard University",
-                            "text": "Currently pursuing a PhD with a focus on [[deep learning]] and its real-world applications, particularly in:",
+                            "title": "Master in Graphics and {{Game Development}}",
+                            "province": "",
+                            "country": "United States",
+                            "institution": "MIT",
+                            "text": "I have pursued a Master's degree focusing on advanced graphics techniques and game development methodologies. This program has equipped me with the skills to create immersive and interactive experiences in digital environments. During my course, I have mastered the following areas:",
                             "list": [
-                                "Computer Vision",
-                                "Innovative AI research",
-                                "Developing novel algorithms for image recognition"
+                                "Advanced Rendering Techniques",
+                                "Real-time Graphics Programming",
+                                "Game Engine Architecture",
+                                "Artificial Intelligence in Games"
                             ],
-                            "tags": [
-                                "Deep Learning", "Computer Vision", "AI Research", "Algorithms"
-                            ]
+                            "tags": ["Game Development", "Graphics Programming", "AI in Games", "Rendering"]
                         },
-                        "es": {
-                            "title": "{{Doctorado}} en Ciencias de la Computación",
-                            "province": "Massachusetts",
-                            "country": "EE. UU.",
-                            "institution": "Universidad de Harvard",
-                            "text": "Actualmente cursando un doctorado con enfoque en [[aprendizaje profundo]] y sus aplicaciones en el mundo real, especialmente en:",
+                        "it": {
+                            "title": "Master in Sviluppo di {{Grafica e Giochi}}",
+                            "province": "",
+                            "country": "Stati Uniti",
+                            "institution": "",
+                            "text": "Sto perseguendo un Master focalizzato su tecniche avanzate di grafica e metodologie di sviluppo di giochi. Questo programma mi ha dotato delle competenze per creare esperienze immersive e interattive in ambienti digitali. Durante il mio corso, ho padroneggiato le seguenti aree:",
                             "list": [
-                                "Visión por computadora",
-                                "Investigación innovadora en IA",
-                                "Desarrollo de nuevos algoritmos para el reconocimiento de imágenes"
+                                "Tecniche Avanzate di Rendering",
+                                "Programmazione Grafica in Tempo Reale",
+                                "Architettura dei Motori di Gioco",
+                                "Intelligenza Artificiale nei Giochi"
                             ],
-                            "tags": ["Aprendizaje profundo", "Visión por computadora", "Investigación en IA", "Algoritmos"]
-                        },
-                        "fr": {
-                            "title": "{{Doctorat}} en informatique",
-                            "province": "Massachusetts",
-                            "country": "États-Unis",
-                            "institution": "Université Harvard",
-                            "text": "Actuellement en doctorat, avec une spécialisation en [[deep learning]] et ses applications concrètes, notamment dans :",
-                            "list": [
-                                "La vision par ordinateur",
-                                "La recherche innovante en IA",
-                                "Le développement de nouveaux algorithmes pour la reconnaissance d’images"
-                            ],
-                            "tags": ["Apprentissage profond", "Vision par ordinateur", "Recherche en IA", "Algorithmes"]
+                            "tags": ["Sviluppo di Giochi", "Programmazione Grafica", "AI nei Giochi"]
                         },
                         "ko": {
-                            "title": "컴퓨터 과학 {{박사}}",
-                            "province": "매사추세츠",
+                            "title": "그래픽 및 {{게임 개발}} 석사",
+                            "province": "",
                             "country": "미국",
-                            "institution": "하버드 대학교",
-                            "text": "[[딥러닝]] 및 그 실생활 적용에 중점을 둔 박사 과정을 진행 중이며, 주요 연구 분야는 다음과 같습니다:",
+                            "institution": "",
+                            "text": "고급 그래픽 기술과 게임 개발 방법론에 중점을 둔 석사 과정을 진행하고 있습니다. 이 프로그램은 디지털 환경에서 몰입감 있고 상호작용적인 경험을 창출하는 데 필요한 기술을 갖추게 해주었습니다. 과정 중 다음 분야를 마스터했습니다:",
                             "list": [
-                                "컴퓨터 비전",
-                                "혁신적인 인공지능 연구",
-                                "이미지 인식을 위한 새로운 알고리즘 개발"
+                                "고급 렌더링 기술",
+                                "실시간 그래픽 프로그래밍",
+                                "게임 엔진 아키텍처",
+                                "게임의 인공지능"
                             ],
-                            "tags": ["딥러닝", "컴퓨터 비전", "AI 연구", "알고리즘"]
+                            "tags": ["게임 개발", "그래픽 프로그래밍", "게임 AI"]
+                        },
+                        "zh": {
+                            "title": "图形与{{游戏开发}}硕士学位",
+                            "province": "",
+                            "country": "美国",
+                            "institution": "",
+                            "text": "我正在攻读一个专注于高级图形技术和游戏开发方法论的硕士学位。该项目使我具备了在数字环境中创建沉浸式和互动体验的技能。在我的课程中，我掌握了以下领域：",
+                            "list": [
+                                "高级渲染技术",
+                                "实时图形编程",
+                                "游戏引擎架构",
+                                "游戏中的人工智能"
+                            ],
+                            "tags": ["游戏开发", "图形编程", "游戏AI"]
                         }
                     }
                 }

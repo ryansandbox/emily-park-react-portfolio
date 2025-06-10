@@ -1,0 +1,290 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "ButterByte",
+                "title_short_nav": "ButterByte",
+                "title_long_prefix": "Meet the",
+                "title_long": "{{ButterByte}} Project!"
+            },
+            "it": {
+                "title_short": "ButterByte",
+                "title_short_nav": "ButterByte",
+                "title_long_prefix": "Incontra il",
+                "title_long": "Progetto {{ButterByte!}}"
+            },
+            "ko": {
+                "title_short": "버터바이트",
+                "title_short_nav": "버터바이트",
+                "title_long_prefix": "프로젝트를 만나보세요",
+                "title_long": "{{버터바이트}} 프로젝트!"
+            },
+            "zh": {
+                "title_short": "ButterByte",
+                "title_short_nav": "ButterByte",
+                "title_long_prefix": "认识",
+                "title_long": "{{ButterByte}} 项目!"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Game Studio",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-solid fa-gamepad"
+                },
+                {
+                    "id": 1,
+                    "label": "@butterbyte",
+                    "link": {"href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "About the {{project}}..."},
+                "it": {"title": "Informazioni sul {{progetto}}..."},
+                "ko": {"title": "{{프로젝트에}} 대하여..."},
+                "zh": {"title": "关于{{项目}}..."}
+
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/butterbyte-page-text-image.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm currently in the process of founding my own game studio, {{Butterbyte}}! The focus will be on creating cute, simple, and casual games for mobile devices — a space where developers can [[freely express their creativity]].</p> <p>The official launch is planned for next year, so stay tuned for updates! If you're interested in funding the project or getting involved, feel free to reach out.</p>"
+                        },
+                        "it": {
+                            "text": "<p>Attualmente sto fondando il mio studio di sviluppo, {{Butterbyte}}! Il focus sarà su giochi carini, semplici e casual per dispositivi mobili — uno spazio dove gli sviluppatori possono [[esprimere liberamente la loro creatività]].</p> <p>Il lancio ufficiale è previsto per il prossimo anno, quindi rimanete sintonizzati per gli aggiornamenti! Se siete interessati a finanziare il progetto o a partecipare, non esitate a contattarmi.</p>"
+                        },
+                        "ko": {
+                            "text": "<p>현재 {{Butterbyte}}라는 게임 스튜디오를 설립하는 과정에 있습니다! 모바일 기기를 위한 귀엽고 간단하며 캐주얼한 게임을 만드는 데 중점을 두고 있으며, 개발자들이 [[자유롭게 창의력을 발휘할 수 있는]] 공간을 제공합니다.</p> <p>공식 출시는 내년으로 예정되어 있으니 업데이트를 기대해 주세요! 프로젝트에 자금을 지원하거나 참여하고 싶으신 분은 언제든지 연락해 주세요.</p>"
+                        },
+                        "zh": {
+                            "text": "<p>我目前正在创办自己的游戏工作室，{{Butterbyte}}！重点将是为移动设备创建可爱、简单和休闲的游戏——这是一个开发者可以[[自由表达他们的创造力]]的空间。</p> <p>官方发布计划在明年，所以请关注更新！如果您有兴趣资助该项目或参与其中，请随时与我联系。</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Project {{progress}}"},
+                "it": {"title": "{{Progresso}} del progetto"},
+                "ko": {"title": "{{프로젝트의}} 진행 상황"},
+                "zh": {"title": "{{项目的}} 进展情况"}
+
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-kickstarter",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Funding",
+                            "text": "The project is almost fully funded and ready to launch! :)",
+                            "level": ""
+                        },
+                        "it": {
+                            "title": "Finanziamento",
+                            "text": "Il progetto è quasi completamente finanziato e pronto per il lancio! :)",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "자금 조달",
+                            "text": "프로젝트가 거의 완전히 자금을 지원받았으며 곧 시작할 준비가 되었습니다! :)",
+                            "level": ""
+                        },
+                        "zh": {
+                            "title": "资金筹集",
+                            "text": "项目几乎完全筹集到资金，准备启动！ :)",
+                            "level": ""
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Brand Design",
+                            "text": "Core gameplay mechanics are defined and we're prototyping ideas.",
+                            "level": ""
+                        },
+                        "it": {
+                            "title": "Design del marchio",
+                            "text": "Le meccaniche di gioco principali sono definite e stiamo prototipando idee.",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "브랜드 디자인",
+                            "text": "핵심 게임 플레이 메커니즘이 정의되었으며 아이디어 프로토타입을 제작하고 있습니다.",
+                            "level": ""
+                        },
+                        "zh": {
+                            "title": "品牌设计",
+                            "text": "核心游戏机制已确定，我们正在制作原型。",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Art Style",
+                            "text": "The visual style is taking shape with a focus on cute and cozy vibes.",
+                            "level": ""
+                        },
+                        "it": {
+                            "title": "Stile artistico",
+                            "text": "Lo stile visivo sta prendendo forma con un focus su vibrazioni carine e accoglienti.",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "아트 스타일",
+                            "text": "귀엽고 아늑한 느낌에 중점을 두고 시각적 스타일이 형성되고 있습니다.",
+                            "level": ""
+                        },
+                        "zh": {
+                            "title": "艺术风格",
+                            "text": "视觉风格正在形成，重点是可爱和舒适的氛围。",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "percentage": 40,
+                    "locales": {
+                        "en": {
+                            "title": "Team Building",
+                            "text": "We're starting to bring creative folks together to build the dream team.",
+                            "level": ""
+                        },
+                        "it": {
+                            "title": "Costruzione del team",
+                            "text": "Stiamo iniziando a riunire persone creative per costruire il team dei sogni.",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "팀 빌딩",
+                            "text": "꿈의 팀을 만들기 위해 창의적인 인재들을 모으기 시작했습니다.",
+                            "level": ""
+                        },
+                        "zh": {
+                            "title": "团队建设",
+                            "text": "我们开始聚集创意人才，打造梦想团队。",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bug-slash",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "percentage": 30,
+                    "locales": {
+                        "en": {
+                            "title": "Prototype Testing",
+                            "text": "Initial builds are being tested to squash bugs and refine the feel.",
+                            "level": ""
+                        },
+                        "it": {
+                            "title": "Test del prototipo",
+                            "text": "Le prime versioni vengono testate per eliminare i bug e perfezionare l'esperienza.",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "프로토타입 테스트",
+                            "text": "초기 빌드를 테스트하여 버그를 수정하고 느낌을 다듬고 있습니다.",
+                            "level": ""
+                        },
+                        "zh": {
+                            "title": "原型测试",
+                            "text": "正在测试初始版本，以消除错误并完善体验。",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-magnifying-glass-chart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "percentage": 20,
+                    "locales": {
+                        "en": {
+                            "title": "Market Research",
+                            "text": "We're exploring the market to understand what players want most.",
+                            "level": ""
+                        },
+                        "it": {
+                            "title": "Ricerca di mercato",
+                            "text": "Stiamo esplorando il mercato per capire cosa desiderano di più i giocatori.",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "시장 조사",
+                            "text": "플레이어들이 가장 원하는 것을 파악하기 위해 시장을 조사 중입니다.",
+                            "level": ""
+                        },
+                        "zh": {
+                            "title": "市场调研",
+                            "text": "我们正在进行市场调研，以了解玩家最想要的内容。",
+                            "level": ""
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -31,16 +31,22 @@
             "faIcon": "fa-solid fa-folder-open"
         },
         {
-            "id": "achievements",
+            "id": "freelancing",
             "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
+            "jsonPath": "/data/sections/freelancing.json",
+            "faIcon": "fa-solid fa-laptop-code"
         },
         {
             "id": "updates",
             "categoryId": "more",
             "jsonPath": "/data/sections/updates.json",
             "faIcon": "fa-solid fa-rss"
+        },
+        {
+            "id": "studio",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/studio.json",
+            "faIcon": "fa-brands fa-bluesky"
         },
         {
             "id": "contact",

@@ -5,29 +5,28 @@
                 "title_short": "Welcome!",
                 "title_short_nav": "About me",
                 "title_long_prefix": "Hello...",
-                "title_long": "I'm {{Mark Choi!}}"
+                "title_long": "I'm {{Emily Park!}}"
             },
-            "es": {
-                "title_short": "¡Saludos!",
-                "title_short_nav": "Sobre mí",
-                "title_long_prefix": "Hola...",
-                "title_long": "Soy {{Mark Choi!}}"
-            },
-            "fr": {
-                "title_short": "Salut !",
-                "title_short_nav": "À propos",
-                "title_long_prefix": "Salut...",
-                "title_long": "Je suis {{Mark Choi !}}"
+            "it": {
+                "title_short": "Benvenuto!",
+                "title_short_nav": "Chi sono",
+                "title_long_prefix": "Ciao...",
+                "title_long": "Sono {{Emily Park!}}"
             },
             "ko": {
                 "title_short": "환영합니다!",
-                "title_short_nav": "소개",
+                "title_short_nav": "저에 대해",
                 "title_long_prefix": "안녕하세요...",
-                "title_long": "저는 {{최민석}}입니다!"
+                "title_long": "{{박하은}}입니다!"
+            },
+            "zh": {
+                "title_short": "欢迎！",
+                "title_short_nav": "关于我",
+                "title_long_prefix": "欢迎来到我的作品集...",
+                "title_long": "我是{{朴夏恩！}}"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -41,21 +40,21 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Cupertino – CA",
+                    "label": "Seattle – WA",
                     "link": {"href": "", "tooltipString": ""},
                     "faIcon": "fa-regular fa-address-book"
                 },
                 {
                     "id": 2,
-                    "label": "mark.choi@dev.com",
-                    "link": {"href": "mailto:mark.choi@dev.com", "tooltipString": "email_me"},
+                    "label": "ems.park@msn.com",
+                    "link": {"href": "mailto:ems.park@msn.com", "tooltipString": "email_me"},
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
                     "id": 3,
-                    "label": "@ryanbalieiro",
-                    "link": {"href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github"},
-                    "faIcon": "fa-brands fa-github"
+                    "label": "/in/emily-park",
+                    "link": {"href": "https://www.linkedin.com/in/", "tooltipString": "connect_with_me"},
+                    "faIcon": "fa-brands fa-linkedin"
                 }
             ]
         },
@@ -65,9 +64,9 @@
             "component": "ArticleText",
             "locales": {
                 "en": {"title": "{{A little bit}} about me..."},
-                "es": {"title": "{{Un poco}} sobre mí..."},
-                "fr": {"title": "{{Un peu}} à propos de moi..."},
-                "ko": {"title": "저에 {{대해 조금}}..."}
+                "it": {"title": "{{Un po'}} su di me..."},
+                "ko": {"title": "{{저에 대해}} 조금..."},
+                "zh": {"title": "{{关于我}}的一点点..."}
             },
             "settings": {
                 "order_items_by": "id",
@@ -76,21 +75,21 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/about-texts-image-1.png",
+                    "img": "images/content/cover-page-text-image.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>I’m a {{PHP}} developer with [[over a decade]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                            "text": "<p>I’m a {{Game Developer}} with [[a strong foundation]] in gameplay programming, real-time graphics, and systems architecture. I specialize in using engines like Unity and Unreal Engine, with solid experience in C#, C++, and scripting tools.</p><p>I’ve contributed to both indie and mid-scale projects, handling everything from core mechanics and UI to performance optimization and multiplayer networking.</p><p>I'm passionate about crafting immersive experiences and can’t wait to build amazing games [[with you!]]</p>"
                         },
-                        "es": {
-                            "text": "<p>Soy un desarrollador de {{PHP}} con [[más de una década]] de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos, ya sea construyendo APIs escalables, optimizando el rendimiento de sistemas o contribuyendo a soluciones full-stack.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"
-                        },
-                        "fr": {
-                            "text": "<p>Je suis développeur {{PHP}} avec [[plus d'une décennie]] d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets, qu'il s'agisse de créer des API évolutives, d'améliorer les performances système ou de participer à des solutions full-stack.</p><p>Je suis impatient de collaborer [[avec vous !]]</p>"
+                        "it": {
+                            "text": "<p>Sono una {{Sviluppatrice di Giochi}} con [[una solida base]] nella programmazione del gameplay, grafica in tempo reale e architettura dei sistemi. Mi specializzo nell'uso di motori come Unity e Unreal Engine, con una solida esperienza in C#, C++ e strumenti di scripting.</p><p>Ho contribuito a progetti sia indie che di medie dimensioni, occupandomi di tutto, dalle meccaniche di base e UI all'ottimizzazione delle prestazioni e al networking multiplayer.</p><p>Sono appassionata di creare esperienze immersive e non vedo l'ora di costruire giochi fantastici [[con te!]]</p>"
                         },
                         "ko": {
-                            "text": "<p>저는 {{백엔드}} 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 [[10년 이상의]] 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다. 확장 가능한 API 구축, 시스템 성능 최적화, 또는 전체 스택 솔루션에 기여하는 등 다양한 분야에 능숙하게 참여할 수 있습니다. 저는 각 프로젝트에 맞는 최적의 도구를 찾는 것과 새로운 도전을 즐깁니다.</p><p>[[당신과 협업]]하기를 기대하고 있습니다!</p>"
+                            "text": "<p>저는 {{게임 개발자로서}} [[게임플레이 프로그래밍]], 실시간 그래픽, 시스템 아키텍처에 대한 강력한 기초를 가지고 있습니다. Unity와 Unreal Engine과 같은 엔진을 사용하며, C#, C++, 스크립팅 도구에 대한 확고한 경험을 보유하고 있습니다.</p><p>인디 및 중규모 프로젝트에 기여하며 핵심 메커니즘, UI, 성능 최적화 및 멀티플레이어 네트워킹 등 다양한 작업을 처리했습니다.</p><p>몰입형 경험을 만드는 것에 열정을 가지고 있으며 [[당신과 함께]] 놀라운 게임을 만들기를 기대합니다!</p>"
+                        },
+                        "zh": {
+                            "text": "<p>我是一名{{游戏开发者}}，在游戏玩法编程、实时图形和系统架构方面有着[[坚实的基础]]。我专注于使用Unity和Unreal Engine等引擎，并在C#、C++和脚本工具方面有着扎实的经验。</p><p>我参与过独立和中型项目，处理从核心机制、用户界面到性能优化和多人网络等各个方面的工作。</p><p>我热衷于打造沉浸式体验，期待与您一起创造出令人惊叹的游戏！</p>"
                         }
                     }
                 }
@@ -99,119 +98,119 @@
 
         {
             "id": 3,
-            "component": "ArticleTestimonials",
+            "component": "ArticleCards",
             "locales": {
-                "en": {"title": "Client {{testimonials}}"},
-                "es": {"title": "Testimonios de {{clientes}}"},
-                "fr": {"title": "Témoignages de {{clients}}"},
-                "ko": {"title": "{{고객}} 추천사"}
+                "en": {"title": "My {{Certifications}}"},
+                "it": {"title": "Le mie {{Certificazioni}}"},
+                "ko": {"title": "나의 {{자격증}}"},
+                "zh": {"title": "我的{{认证}}"}
             },
             "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
+                "order_items_by": "date",
+                "order_items_sort": "desc"
             },
             "items": [
                 {
                     "id": 1,
-                    "label": "Anita Bath",
-                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-female-1.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "img": "images/content/institution-logo-unity.jpg",
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "date": {"year": 2023, "month": 9},
+                    "link": {"href": "https://unity.com/products/unity-certifications", "tooltipString": "see_certification"},
                     "locales": {
                         "en": {
-                            "title": "CEO at [[SalesForce]]",
-                            "text": "Working with Mark was a truly [[transformative experience]]. His outstanding programming skills and collaborative spirit not only elevated the quality of our project but also brought a renewed sense of motivation and purpose to us."
+                            "title": "{{Unity}} Certified Developer",
+                            "text": "Certified Unity Developer with expertise in real-time rendering and game mechanics."
                         },
-                        "es": {
-                            "title": "CEO en [[SalesForce]]",
-                            "text": "Trabajar con Mark fue una [[experiencia transformadora]]. Su gran habilidad para programar y su espíritu colaborativo mejoraron el proyecto y nos devolvieron la motivación y el propósito."
-                        },
-                        "fr": {
-                            "title": "PDG de [[SalesForce]]",
-                            "text": "Travailler avec Mark fut une [[expérience transformante]]. Ses compétences en programmation et son esprit d’équipe ont élevé le projet et ravivé notre motivation et notre but."
+                        "it": {
+                            "title": "{{Unity}} Sviluppatore Certificato",
+                            "text": "Sviluppatore Unity certificato con competenze in rendering in tempo reale e meccaniche di gioco."
                         },
                         "ko": {
-                            "title": "세일즈포스 CEO",
-                            "text": "Mark와 함께한 시간은 [[변화의 경험]]이었습니다. 그의 뛰어난 프로그래밍 실력과 협업 정신은 프로젝트 품질을 높이고 우리에게 새로운 동기를 불어넣었습니다."
+                            "title": "{{유니티}} 공인 개발자",
+                            "text": "실시간 렌더링 및 게임 메커니즘에 대한 전문 지식을 갖춘 공인 유니티 개발자."
+                        },
+                        "zh": {
+                            "title": "{{Unity}}认证开发者",
+                            "text": "具备实时渲染和游戏机制专业知识的Unity认证开发者。"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "label": "Lou Natic",
-                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-male-1.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "img": "",
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "#0E1128", "bgLight": "#1C1F3A", "fill": "#FFF", "fillLight": "#FFF"},
+                    "date": {"year": 2025, "month": 3},
+                    "link": {"href": "https://www.unrealengine.com/en-US/certification", "tooltipString": "see_certification"},
                     "locales": {
                         "en": {
-                            "title": "Lead Developer at [[GitHub]]",
-                            "text": "Having Mark on our team was an invaluable asset. His [[deep programming insights and mentorship]] not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                            "title": "{{Unreal Engine}} Certification",
+                            "text": "Official Unreal Engine certification, demonstrating proficiency in C++."
                         },
-                        "es": {
-                            "title": "Desarrollador Principal en [[GitHub]]",
-                            "text": "Tener a Mark fue un recurso invaluable. Sus [[profundos conocimientos y mentoría]] mejoraron nuestros proyectos y nos dieron confianza para afrontar cualquier desafío con creatividad."
-                        },
-                        "fr": {
-                            "title": "Développeur Principal chez [[GitHub]]",
-                            "text": "La présence de Mark fut un atout inestimable. Ses [[connaissances en programmation et son mentorat]] ont renforcé nos projets et notre capacité à relever les défis avec assurance."
+                        "it": {
+                            "title": "{{Unreal Engine}} Certificazione",
+                            "text": "Certificazione ufficiale di Unreal Engine, che dimostra competenza in C++."
                         },
                         "ko": {
-                            "title": "[[GitHub]] 수석 개발자",
-                            "text": "Mark는 소중한 자산이었습니다. 그의 [[깊은 프로그래밍 통찰력과 멘토링]]은 프로젝트를 향상시키고 도전을 자신감과 창의성으로 해결할 수 있게 해주었습니다."
+                            "title": "{{언리얼 엔진}} 인증",
+                            "text": "C++에 대한 능력을 입증하는 공식 언리얼 엔진 인증."
+                        },
+                        "zh": {
+                            "title": "{{虚幻引擎}}认证",
+                            "text": "官方虚幻引擎认证，证明在C++方面的熟练程度。"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "label": "Paige Turner",
-                    "link": {"href": "", "tooltipString": ""},
-                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "img": "images/content/institution-logo-ea.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "date": {"year": 2023, "month": 5},
+                    "link": {"href": "https://www.autodesk.com/certification", "tooltipString": "see_certification"},
                     "locales": {
                         "en": {
-                            "title": "Managing Director at [[Dingga]]",
-                            "text": "Collaborating with Mark was a true [[game changer]] for our entire development process. His [[deep technical expertise]], creative problem-solving, and proactive mindset were absolutely invaluable."
+                            "title": "{{EA}} Certified Professional",
+                            "text": "3D modeling and animation for games using tools like Maya and 3ds Max."
                         },
-                        "es": {
-                            "title": "Directora General en [[Dingga]]",
-                            "text": "Colaborar con Mark fue un verdadero [[punto de inflexión]]. Su [[gran experiencia técnica]], creatividad y mentalidad proactiva fueron absolutamente invaluables para nuestro equipo."
-                        },
-                        "fr": {
-                            "title": "Directrice Générale chez [[Dingga]]",
-                            "text": "Travailler avec Mark a été un vrai [[tournant]]. Son [[expertise technique approfondie]], sa créativité et sa proactivité ont été d’une valeur inestimable pour notre développement."
+                        "it": {
+                            "title": "{{EA}} Professionista Certificato",
+                            "text": "Modellazione 3D e animazione per giochi utilizzando strumenti come Maya e 3ds Max."
                         },
                         "ko": {
-                            "title": "딩가 전무이사",
-                            "text": "Mark와의 협업은 진정한 [[게임 체인저]]였습니다. 그의 [[깊이 있는 기술 전문성]], 창의적인 문제 해결력, 능동적인 태도는 매우 소중한 자산이었습니다."
+                            "title": "{{EA}} 공인 전문가",
+                            "text": "Maya 및 3ds Max와 같은 도구를 사용한 게임용 3D 모델링 및 애니메이션."
+                        },
+                        "zh": {
+                            "title": "{{EA}}认证专业人士",
+                            "text": "使用Maya和3ds Max等工具进行游戏的3D建模和动画。"
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "label": "Chris P. Bacon",
-                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-male-2.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "img": "",
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {"bg": "#232F3E", "bgLight": "#37475A", "fill": "#FF9900", "fillLight": "#FFB84D"},
+                    "date": {"year": 2024, "month": 10},
+                    "link": {"href": "https://aws.amazon.com/gametech/", "tooltipString": "see_certification"},
                     "locales": {
                         "en": {
-                            "title": "Creative Director at [[Dribbble]]",
-                            "text": "Mark Choi's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
+                            "title": "{{AWS Game Dev}} Certification",
+                            "text": "Multiplayer backend infrastructure, game server hosting, and cloud-based analytics."
                         },
-                        "es": {
-                            "title": "Director Creativo en [[Dribbble]]",
-                            "text": "La [[atención al detalle]] y el [[pensamiento innovador]] de Mark Choi aportaron una perspectiva fresca a todo nuestro proceso de diseño. ¡Simplemente increíble!"
-                        },
-                        "fr": {
-                            "title": "Directeur Créatif chez [[Dribbble]]",
-                            "text": "L’[[attention aux détails]] et la [[pensée innovante]] de Mark Choi ont apporté une perspective nouvelle à tout notre processus de design ! Simplement incroyable !"
+                        "it": {
+                            "title": "{{AWS Game Dev}} Certificazione",
+                            "text": "Infrastruttura backend multiplayer, hosting di server di gioco e analisi basate su cloud."
                         },
                         "ko": {
-                            "title": "[[Dribbble]] 크리에이티브 디렉터",
-                            "text": "마크 최의 [[세심한 배려]]와 [[혁신적인 사고]]가 전체 디자인 과정에 신선한 시각을 가져왔습니다! 정말 놀랍습니다!"
+                            "title": "{{AWS 게임 개발}} 인증",
+                            "text": "멀티플레이어 백엔드 인프라, 게임 서버 호스팅 및 클라우드 기반 분석."
+                        },
+                        "zh": {
+                            "title": "{{AWS游戏开发}}认证",
+                            "text": "多玩家后端基础设施、游戏服务器托管和基于云的分析。"
                         }
                     }
                 }
@@ -220,166 +219,138 @@
 
         {
             "id": 4,
-            "component": "ArticleInfoList",
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
-            },
+            "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Personal {{interests}}"},
-                "es": {"title": "Intereses {{personales}}"},
-                "fr": {"title": "Intérêts {{personnels}} "},
-                "ko": {"title": "개인 {{관심사}}"}
+                "en": {"title": "{{Languages}} I speak"},
+                "it": {"title": "{{Lingue}} che parlo"},
+                "ko": {"title": "{{언어}} 능력"},
+                "zh": {"title": "{{语言}} 能力"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
             },
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-video",
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "{{AI}} video editing",
-                            "text": "Learning to use AI tools to enhance my videos."
+                            "title": "English",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Native"
                         },
-                        "es": {
-                            "title": "Edición de video con {{AI}}",
-                            "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
-                        },
-                        "fr": {
-                            "title": "Édition vidéo avec {{IA}}",
-                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        "it": {
+                            "title": "Inglese",
+                            "text": "Madrelingua con eccellenti capacità di comunicazione e scrittura.",
+                            "level": "Madrelingua"
                         },
                         "ko": {
-                            "title": "{{AI}} 비디오 편집",
-                            "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                            "title": "영어",
+                            "text": "원어민 수준의 의사소통 및 작문 능력.",
+                            "level": "원어민"
+                        },
+                        "zh": {
+                            "title": "英语",
+                            "text": "母语者，具有出色的沟通和写作能力。",
+                            "level": "母语"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "faIcon": "fa-solid fa-palette",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "img": "images/flags/ko.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Practicing digital art and exploring new styles."
+                            "title": "Korean",
+                            "text": "Fluent speaker with strong listening and speaking skills.",
+                            "level": "Fluent"
                         },
-                        "es": {
-                            "title": "{{Arte}} y Ilustración",
-                            "text": "Practicando arte digital y explorando nuevos estilos."
-                        },
-                        "fr": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        "it": {
+                            "title": "Coreano",
+                            "text": "Parlante fluente con solide capacità di ascolto e conversazione.",
+                            "level": "Fluente"
                         },
                         "ko": {
-                            "title": "{{예술}} 및 일러스트레이션",
-                            "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                            "title": "한국어",
+                            "text": "유창하게 말하고 듣는 능력이 뛰어남.",
+                            "level": "유창함"
+                        },
+                        "zh": {
+                            "title": "韩语",
+                            "text": "流利的口语和听力能力。",
+                            "level": "流利"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-solid fa-chart-line",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "img": "images/flags/zh.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "{{Investing}} & Finance",
-                            "text": "Learning the basics of stocks and personal finance."
+                            "title": "Chinese",
+                            "text": "Intermediate skills with focus on reading and basic conversation.",
+                            "level": "Intermediate"
                         },
-                        "es": {
-                            "title": "{{Inversión}} y Finanzas",
-                            "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
-                        },
-                        "fr": {
-                            "title": "{{Investissement}} & Finance",
-                            "text": "Apprendre les bases des actions et des finances personnelles."
+                        "it": {
+                            "title": "Cinese",
+                            "text": "Livello intermedio con attenzione alla lettura e conversazione di base.",
+                            "level": "Intermedio"
                         },
                         "ko": {
-                            "title": "{{투자}} 및 재정 관리",
-                            "text": "주식과 개인 재정의 기초 배우기."
+                            "title": "중국어",
+                            "text": "읽기 및 기초 회화에 중점을 둔 중급 수준.",
+                            "level": "중급"
+                        },
+                        "zh": {
+                            "title": "中文",
+                            "text": "具有中级水平，注重阅读和基本对话。",
+                            "level": "中级"
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-solid fa-window-restore",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "img": "images/flags/it.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "{{UX}} design",
-                            "text": "Studying user experience principles."
+                            "title": "Italian",
+                            "text": "Beginner level with basic vocabulary and comprehension.",
+                            "level": "Beginner"
                         },
-                        "es": {
-                            "title": "Diseño {{UX}}",
-                            "text": "Estudiando los principios de la experiencia del usuario."
-                        },
-                        "fr": {
-                            "title": "Conception {{UX}}",
-                            "text": "Étudier les principes de l'expérience utilisateur."
+                        "it": {
+                            "title": "Italiano",
+                            "text": "Livello principiante con vocabolario e comprensione di base.",
+                            "level": "Principiante"
                         },
                         "ko": {
-                            "title": "{{UX}} 디자인",
-                            "text": "사용자 경험 원칙을 공부하기."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-solid fa-camera-retro",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "locales": {
-                        "en": {
-                            "title": "{{Photography}} & Photoshop",
-                            "text": "Enhancing photos through creative editing techniques."
+                            "title": "이탈리아어",
+                            "text": "기본 어휘 및 이해력을 갖춘 초급 수준.",
+                            "level": "초급"
                         },
-                        "es": {
-                            "title": "{{Fotografía}} y Photoshop",
-                            "text": "Mejorando fotos a través de técnicas creativas de edición."
-                        },
-                        "fr": {
-                            "title": "{{Photographie}} & Photoshop",
-                            "text": "Améliorer des photos avec des techniques de montage créatives."
-                        },
-                        "ko": {
-                            "title": "{{사진}} 및 포토샵",
-                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-solid fa-drum-steelpan",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "locales": {
-                        "en": {
-                            "title": "Playing {{drums}}",
-                            "text": "Exploring different genres and improving my skills."
-                        },
-                        "es": {
-                            "title": "Tocar {{batería}}",
-                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
-                        },
-                        "fr": {
-                            "title": "Jouer de la {{batterie}}",
-                            "text": "Explorer différents genres et améliorer mes compétences."
-                        },
-                        "ko": {
-                            "title": "{{드럼}} 연주",
-                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        "zh": {
+                            "title": "意大利语",
+                            "text": "初级水平，掌握基础词汇和理解能力。",
+                            "level": "初级"
                         }
                     }
                 }
