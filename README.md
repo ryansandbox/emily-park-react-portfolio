@@ -14,7 +14,7 @@ To run this project locally:
 
 ```bash
 # Clone the repo
-git clone https://github.com/rbtutorials/emily-park-react-portfolio
+git clone https://github.com/ryansandbox/emily-park-react-portfolio
 
 # Navigate into the project
 cd emily-park-react-portfolio
