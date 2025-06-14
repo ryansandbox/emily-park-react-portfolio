@@ -1,7 +1,7 @@
 {
     "name": "Emily Park",
     "profilePictureUrl": "images/content/pfp.png",
-    "resumePdfUrl": "https://mag.wcoomd.org/uploads/2018/05/blank.pdf",
+    "resumePdfUrl": "pdf/resume.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
