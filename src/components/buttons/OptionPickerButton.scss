@@ -59,6 +59,17 @@ a.btn-option-picker-menu-item {
     }
 }
 
+a.btn-option-picker-menu-item-selected {
+    background-color: var(--theme-texts-light-2)!important;
+    color: var(--theme-texts-inv)!important;
+    user-select: none;
+    pointer-events: none;
+
+    i.fa-icon {
+        opacity: 1;
+    }
+}
+
 div.btn-option-picker-icon {
     display: inline-flex;
     align-items: center;
@@ -78,7 +89,6 @@ span.btn-option-picker-menu-item-label {
     user-select: none;
     pointer-events: none;
 }
-
 
 div.btn-option-picker-icon-size-1 {
     font-size: 20px;

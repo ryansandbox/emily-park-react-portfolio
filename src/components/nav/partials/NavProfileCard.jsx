@@ -49,6 +49,7 @@ function NavProfileCard({ profile, expanded }) {
         <Card className={`nav-profile-card ${expandedClass}`}>
             <ImageView src={profilePictureUrl}
                        className={`nav-profile-card-avatar`}
+                       hideSpinner={true}
                        alt={name}/>
 
             {statusCircleVisible && (

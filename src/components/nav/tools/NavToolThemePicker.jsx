@@ -36,7 +36,8 @@ function NavToolThemePicker() {
                                     options={options}
                                     selectedOptionId={selectedTheme?.id}
                                     onOptionSelected={_onOptionSelected}
-                                    tooltipLabel={tooltipLabel}/>
+                                    tooltipLabel={tooltipLabel}
+                                    showSelectedOptionOnDropdown={true}/>
             )}
         </>
     )

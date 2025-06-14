@@ -2,7 +2,7 @@ import "./OptionPickerButton.scss"
 import React, {useEffect, useState} from 'react'
 import {Dropdown} from "react-bootstrap"
 
-function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected, tooltipLabel }) {
+function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected, tooltipLabel, showSelectedOptionOnDropdown = false }) {
     const defaultOption = {
         id: "default",
         faIcon: "fa-solid fa-circle"
@@ -11,7 +11,10 @@ function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected,
     const selectedOption = options.find(option => option.id === selectedOptionId)
         || defaultOption
 
-    const availableOptions = options.filter(option => option.id !== selectedOption.id)
+    const availableOptions = options.filter(option =>
+        showSelectedOptionOnDropdown ||
+        option.id !== selectedOption.id
+    )
 
     const buttonBehaviorEnabled = mode === OptionPickerButton.Modes.MODE_BUTTON ||
         (mode === OptionPickerButton.Modes.MODE_AUTO && options.length <= 2)
@@ -48,6 +51,7 @@ function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected,
 
                 {!buttonBehaviorEnabled && (
                     <OptionPickerButtonMenu availableOptions={availableOptions}
+                                            selectedOptionId={selectedOptionId}
                                             onClick={_onDropdownOptionClicked}/>
                 )}
             </Dropdown>
@@ -71,12 +75,12 @@ function OptionPickerButtonToggle({ option, caretIcon, onClick, tooltipLabel }) 
     )
 }
 
-function OptionPickerButtonMenu({ availableOptions, onClick }) {
+function OptionPickerButtonMenu({ availableOptions, selectedOptionId, onClick }) {
     return (
         <Dropdown.Menu>
             {availableOptions.map((option, key) => (
                 <Dropdown.Item key={key}
-                               className={`btn-option-picker-menu-item`}
+                               className={`btn-option-picker-menu-item ${option.id === selectedOptionId ? 'btn-option-picker-menu-item-selected' : ''}`}
                                onClick={() => { onClick(option) }}>
                     <OptionPickerButtonPickerIcon   option={option}
                                                     size={1}/>
