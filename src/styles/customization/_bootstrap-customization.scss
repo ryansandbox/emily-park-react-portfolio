@@ -216,6 +216,10 @@ div.dropdown {
             }
         }
     }
+
+    a.dropdown-item-no-border {
+        border-bottom: 0!important;
+    }
 }
 
 div.modal {

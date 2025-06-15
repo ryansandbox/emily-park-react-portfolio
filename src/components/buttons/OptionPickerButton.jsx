@@ -76,11 +76,14 @@ function OptionPickerButtonToggle({ option, caretIcon, onClick, tooltipLabel }) 
 }
 
 function OptionPickerButtonMenu({ availableOptions, selectedOptionId, onClick }) {
+    const hasSelectedOption = availableOptions.some(option => option.id === selectedOptionId)
+    const borderClass = hasSelectedOption ? 'dropdown-item-no-border' : ''
+
     return (
         <Dropdown.Menu>
             {availableOptions.map((option, key) => (
                 <Dropdown.Item key={key}
-                               className={`btn-option-picker-menu-item ${option.id === selectedOptionId ? 'btn-option-picker-menu-item-selected' : ''}`}
+                               className={`btn-option-picker-menu-item ${borderClass} ${option.id === selectedOptionId ? 'btn-option-picker-menu-item-selected' : ''}`}
                                onClick={() => { onClick(option) }}>
                     <OptionPickerButtonPickerIcon   option={option}
                                                     size={1}/>
