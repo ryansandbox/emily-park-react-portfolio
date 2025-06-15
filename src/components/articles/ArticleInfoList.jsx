@@ -50,15 +50,17 @@ function ArticleInfoListItems({ dataWrapper, selectedItemCategoryId }) {
             div.style.height = 'auto'
         })
 
-        let maxHeight = 0;
+        let maxHeight = 0
         itemDivs.forEach(div => {
             const height = div.offsetHeight
             if (height > maxHeight) maxHeight = height
         })
 
-        itemDivs.forEach(div => {
-            div.style.height = `${maxHeight}px`
-        })
+        if(maxHeight < 120) {
+            itemDivs.forEach(div => {
+                div.style.height = `${maxHeight}px`
+            })
+        }
     }, [dataWrapper, viewport.innerWidth])
 
     return (
