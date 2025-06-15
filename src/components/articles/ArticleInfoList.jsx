@@ -112,7 +112,7 @@ function ArticleInfoListItem({ itemWrapper}) {
                           className={`${textClass} text-3 article-info-list-item-info-link`}
                           onHoverStatus={setLinkHovered}>
                             <span className={`article-inline-list-item-label`}
-                                  dangerouslySetInnerHTML={{__html: itemWrapper.label || itemWrapper.locales.title}}/>
+                                  dangerouslySetInnerHTML={{__html: itemWrapper.locales.label || itemWrapper.label || itemWrapper.locales.title}}/>
                     </Link>
                 )}
             </div>

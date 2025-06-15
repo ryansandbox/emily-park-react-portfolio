@@ -81,7 +81,7 @@ function ArticleTestimonialsItem({ itemWrapper }) {
                 <Link href={itemWrapper.link?.href}
                       tooltip={itemWrapper.link?.tooltip}
                       className={`article-testimonials-item-name text-5`}>
-                    <span dangerouslySetInnerHTML={{__html: itemWrapper.label || "---"}}/>
+                    <span dangerouslySetInnerHTML={{__html: itemWrapper.locales.label || itemWrapper.label || "---"}}/>
                 </Link>
 
                 <div className={`article-testimonials-item-role text-2`}

@@ -13,6 +13,9 @@ $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
 @import "@fortawesome/fontawesome-free/scss/regular.scss";
 @import "@fortawesome/fontawesome-free/scss/brands.scss";
 
+// Importing PrimeIcons...
+@import "primeicons/primeicons.css";
+
 // Importing styles...
 @import "root-flags";
 @import "layout/page";

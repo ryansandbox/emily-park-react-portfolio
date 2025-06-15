@@ -121,6 +121,7 @@ export default class ArticleItemDataWrapper {
             province: language.getTranslation(locales, "province", null),
             tags: language.getTranslation(locales, "tags", []),
             text: language.getTranslation(locales, "text", null),
+            label: language.getTranslation(locales, "label", null),
         }
     }
 

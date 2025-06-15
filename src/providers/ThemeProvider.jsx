@@ -6,8 +6,9 @@
 
 import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
+import ActivitySpinner from "/src/components/loaders/ActivitySpinner.jsx"
 
-function ThemeProvider({ children, supportedThemes, defaultThemeId, onThemeChanged }) {
+function ThemeProvider({ children, supportedThemes, defaultThemeId, showSpinnerOnThemeChange, onThemeChanged }) {
     const utils = useUtils()
 
     const allThemes = Array.isArray(supportedThemes) && supportedThemes.length > 0 ?
@@ -19,6 +20,7 @@ function ThemeProvider({ children, supportedThemes, defaultThemeId, onThemeChang
 
     const supportsMultipleThemes = allThemes.length >= 2
 
+    const [spinnerActivities, setSpinnerActivities] = useState([])
     const [selectedThemeId, setSelectedThemeId] = useState(null)
 
     /** @constructs **/
@@ -38,10 +40,21 @@ function ThemeProvider({ children, supportedThemes, defaultThemeId, onThemeChang
     }
 
     const setSelectedTheme = (theme) => {
+        const _apply = () => {
+            document.documentElement.setAttribute('data-theme', theme.id)
+            onThemeChanged(theme.id)
+        }
+
         setSelectedThemeId(theme.id)
         utils.storage.setPreferredTheme(theme.id)
-        document.documentElement.setAttribute('data-theme', theme.id)
-        onThemeChanged(theme.id)
+        if(!showSpinnerOnThemeChange) {
+            _apply()
+            return
+        }
+
+        setSpinnerActivities([{id: "theme-change"}])
+        setTimeout(() => { _apply() }, 30)
+        setTimeout(() => { setSpinnerActivities([]) }, 300)
     }
 
     const getAvailableThemes = (excludeSelected) => {
@@ -73,6 +86,9 @@ function ThemeProvider({ children, supportedThemes, defaultThemeId, onThemeChang
             getAvailableThemes,
             toggle
         }}>
+            <ActivitySpinner activities={spinnerActivities}
+                             defaultMessage={null}/>
+
             {selectedThemeId && (
                 <>{children}</>
             )}

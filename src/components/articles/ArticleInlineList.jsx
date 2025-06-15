@@ -75,7 +75,7 @@ function ArticleInlineListItem({ itemWrapper }) {
                    style={itemWrapper.faIconStyle}/>
 
                 <span className={`article-inline-list-item-label`}
-                      dangerouslySetInnerHTML={{__html: itemWrapper.label || itemWrapper.placeholder}}/>
+                      dangerouslySetInnerHTML={{__html: itemWrapper.locales.label || itemWrapper.label || itemWrapper.placeholder}}/>
             </Link>
         </li>
     )

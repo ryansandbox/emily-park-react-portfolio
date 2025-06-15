@@ -51,7 +51,8 @@ jsonUtils.overwrite(jSettingsPath, {
         animatedCursorEnabled: true,
         defaultLanguageId: "en",
         defaultThemeId: "dark",
-        fullscreenEnabled: true
+        fullscreenEnabled: true,
+        showSpinnerOnThemeChange: false
     },
 
     supportedLanguages: [
