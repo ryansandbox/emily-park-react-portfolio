@@ -13,6 +13,15 @@ export const _urlUtils = {
     },
 
     /**
+     * @return {string}
+     */
+    getRootLocation: () => {
+        const { protocol, host, pathname, search, hash } = window.location
+        const path = `${protocol}//${host}${pathname}`
+        return path.endsWith('/') ? path : `${path}/`
+    },
+
+    /**
      * @param {string} url
      * @return {boolean}
      */

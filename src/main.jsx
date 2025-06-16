@@ -1,6 +1,7 @@
 import "/src/styles/app.scss"
 import {StrictMode, useEffect, useState} from 'react'
 import {createRoot} from 'react-dom/client'
+import {useApi} from "/src/hooks/api.js"
 import {useConstants} from "/src/hooks/constants.js"
 import {useUtils} from "/src/hooks/utils.js"
 import Preloader from "/src/components/loaders/Preloader.jsx"
@@ -46,16 +47,22 @@ const App = () => {
  * @constructor
  */
 const AppEssentialsWrapper = ({children}) => {
+    const api = useApi()
     const utils = useUtils()
     const constants = useConstants()
 
     const [settings, setSettings] = useState()
 
     useEffect(() => {
+        if (window.location.pathname !== utils.file.BASE_URL)
+            window.history.pushState({}, '', utils.file.BASE_URL)
+
         utils.file.loadJSON("/data/settings.json").then(response => {
             _applyDeveloperSettings(response)
             setSettings(response)
         })
+
+        api.analytics.reportVisit().then(() => {})
     }, [])
 
     const _applyDeveloperSettings = (settings) => {

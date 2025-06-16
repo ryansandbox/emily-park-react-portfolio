@@ -147,13 +147,15 @@ function ArticleItemInfoForTimelinesBody({ itemWrapper, className = "" }) {
 function ArticleItemInfoForTimelinesTagsFooter({ itemWrapper, className = "" }) {
     return (
         <div className={`article-timeline-item-info-for-timelines-tags-footer ${className}`}>
-            <Tags className={`article-timeline-item-info-for-timelines-tags-footer-tag-list`}>
-                {itemWrapper.locales.tags.map((tag, key) => (
-                    <Tag key={key}
-                         text={tag}
-                         className={`article-timeline-item-info-for-timelines-tags-footer-tag text-1`}/>
-                ))}
-            </Tags>
+            {itemWrapper.locales.tags && (
+                <Tags className={`article-timeline-item-info-for-timelines-tags-footer-tag-list`}>
+                    {itemWrapper.locales.tags.map((tag, key) => (
+                        <Tag key={key}
+                             text={tag}
+                             className={`article-timeline-item-info-for-timelines-tags-footer-tag text-1`}/>
+                    ))}
+                </Tags>
+            )}
         </div>
     )
 }

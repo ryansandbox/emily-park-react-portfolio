@@ -52,7 +52,7 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
             _openGalleryLink()
         else if(href.startsWith("#"))
             location.goToSectionWithId(href.replaceAll("#", ""))
-        else if(href.includes("youtube.com"))
+        else if(href.includes("youtube.com/embed") || href.includes("youtube.com/watch?v="))
             _openYoutubeLink()
         else
             _openExternalLink()
