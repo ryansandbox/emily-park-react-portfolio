@@ -47,7 +47,7 @@ function ThemeProvider({ children, supportedThemes, defaultThemeId, showSpinnerO
 
         setSelectedThemeId(theme.id)
         utils.storage.setPreferredTheme(theme.id)
-        if(!showSpinnerOnThemeChange) {
+        if(!showSpinnerOnThemeChange || !selectedThemeId) {
             _apply()
             return
         }

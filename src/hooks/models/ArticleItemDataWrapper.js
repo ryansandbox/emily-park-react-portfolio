@@ -70,8 +70,8 @@ export default class ArticleItemDataWrapper {
 
         if(isDarkTheme) {
             return {
-                backgroundColor: bgDarkColor || bgLightColor,
-                color: fillDarkColor || fillLightColor
+                backgroundColor: bgDarkColor,
+                color: fillDarkColor
             }
         }
         else {
