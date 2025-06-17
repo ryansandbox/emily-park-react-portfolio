@@ -48,6 +48,7 @@ function ArticleInfoListItems({ dataWrapper, selectedItemCategoryId }) {
 
         itemDivs.forEach(div => {
             div.style.height = 'auto'
+            div.style.minHeight = '0px'
         })
 
         let maxHeight = 0

@@ -7,6 +7,10 @@ div.transitionable-wrapper {
     }
 }
 
+div.transitionable-item {
+    display: flex;
+}
+
 div.transitionable-item-animation-pop {
     animation: appear 0.3s ease-out forwards;
 }
