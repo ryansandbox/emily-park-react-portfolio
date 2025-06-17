@@ -112,7 +112,7 @@ export default class ArticleItemDataWrapper {
         if(!locales)
             return {}
 
-        return {
+        const translations = {
             title: language.getTranslation(locales, "title", null),
             country: language.getTranslation(locales, "country", null),
             institution: language.getTranslation(locales, "institution", null),
@@ -123,6 +123,14 @@ export default class ArticleItemDataWrapper {
             text: language.getTranslation(locales, "text", null),
             label: language.getTranslation(locales, "label", null),
         }
+
+        if(translations.list && Array.isArray(translations.list)) {
+            translations.list = translations.list.map(item => {
+                return language.parseJsonText(item)
+            })
+        }
+
+        return translations
     }
 
     _parsePreview(rawPreview, language) {

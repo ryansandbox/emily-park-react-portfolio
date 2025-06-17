@@ -11,7 +11,8 @@ function Nav({ links, itemComponent, id = null, className = "", tag, data = {} }
     const [clickedLink, setClickedLink] = useState(null)
 
     const _isActive = (link) => {
-        if(clickedLink)
+        const isClickedLinkAvailable = links.find(link => link.id === clickedLink?.id)
+        if(clickedLink && isClickedLinkAvailable)
             return clickedLink.id === link.id
         return link.active
     }
