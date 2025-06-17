@@ -58,7 +58,7 @@ function ArticleInfoListItems({ dataWrapper, selectedItemCategoryId }) {
 
         if(maxHeight < 120) {
             itemDivs.forEach(div => {
-                div.style.height = `${maxHeight}px`
+                div.style.minHeight = `${maxHeight}px`
             })
         }
     }, [dataWrapper, viewport.innerWidth])

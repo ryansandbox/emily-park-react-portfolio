@@ -25,7 +25,7 @@ function ArticlePortfolio({ dataWrapper, id }) {
                  className={`article-portfolio`}
                  selectedItemCategoryId={selectedItemCategoryId}
                  setSelectedItemCategoryId={setSelectedItemCategoryId}>
-            <ArticlePortfolioItems dataWrapper={dataWrapper} 
+            <ArticlePortfolioItems dataWrapper={dataWrapper}
                                    selectedItemCategoryId={selectedItemCategoryId}/>
         </Article>
     )
@@ -52,18 +52,30 @@ function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
         selectedItemCategoryId + "-" + language.getSelectedLanguage()?.id :
         language.getSelectedLanguage()?.id
 
-    return (
-        <Transitionable id={dataWrapper.uniqueId}
-                        refreshFlag={refreshFlag}
-                        delayBetweenItems={100}
-                        animation={Transitionable.Animations.POP}
-                        className={`article-portfolio-items ${itemsPerRowClass}`}>
-            {filteredItems.map((itemWrapper, key) => (
-                <ArticlePortfolioItem itemWrapper={itemWrapper} 
-                                      key={key}/>
-            ))}
-        </Transitionable>
-    )
+    if(dataWrapper.categories?.length) {
+        return (
+            <Transitionable id={dataWrapper.uniqueId}
+                            refreshFlag={refreshFlag}
+                            delayBetweenItems={100}
+                            animation={Transitionable.Animations.POP}
+                            className={`article-portfolio-items ${itemsPerRowClass}`}>
+                {filteredItems.map((itemWrapper, key) => (
+                    <ArticlePortfolioItem itemWrapper={itemWrapper}
+                                          key={key}/>
+                ))}
+            </Transitionable>
+        )
+    }
+    else {
+        return (
+            <div className={`article-portfolio-items ${itemsPerRowClass} mb-3 mb-lg-2`}>
+                {filteredItems.map((itemWrapper, key) => (
+                    <ArticlePortfolioItem itemWrapper={itemWrapper}
+                                          key={key}/>
+                ))}
+            </div>
+        )
+    }
 }
 
 /**
@@ -113,7 +125,7 @@ function ArticlePortfolioItemBody({ itemWrapper }) {
     return (
         <div className={`article-portfolio-item-body`}>
             <Tags className={`article-portfolio-item-body-tags`}>
-                {itemWrapper.locales.tags.map((tag, key) => (
+                {itemWrapper.locales.tags && Boolean(itemWrapper.locales.tags.length) && itemWrapper.locales.tags.map((tag, key) => (
                     <Tag key={key}
                          text={tag}
                          variant={Tag.Variants.DARK}

@@ -97,7 +97,9 @@ export default class ArticleDataWrapper {
      * @private
      */
     _parseCategories(rawData, language) {
-        const categorizeBy = rawData.settings["categorize_by"]
+        const settings = rawData.settings || {}
+        const categorizeBy = settings["categorize_by"]
+
         if(!categorizeBy || !Array.isArray(categorizeBy) || categorizeBy.length === 0)
             return []
 
