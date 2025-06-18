@@ -52,7 +52,7 @@
             "id": "contact",
             "categoryId": "more",
             "jsonPath": "/data/sections/contact.json",
-            "faIcon": "fa-solid fa-pen-to-square"
+            "faIcon": "fa-solid fa-envelope"
         }
     ]
 }
