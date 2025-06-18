@@ -62,7 +62,7 @@ function ArticleInfoListItems({ dataWrapper, selectedItemCategoryId }) {
                 div.style.minHeight = `${maxHeight}px`
             })
         }
-    }, [dataWrapper, viewport.innerWidth])
+    }, [dataWrapper?.id, viewport.innerWidth])
 
     return (
         <div className={`article-info-list-items ${shrinkClass}`}
