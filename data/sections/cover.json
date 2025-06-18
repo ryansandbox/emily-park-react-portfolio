@@ -42,7 +42,7 @@
                     "id": 1,
                     "label": "Seattle – WA",
                     "link": {"href": "", "tooltipString": ""},
-                    "faIcon": "fa-regular fa-address-book"
+                    "faIcon": "pi pi-map-marker"
                 },
                 {
                     "id": 2,
