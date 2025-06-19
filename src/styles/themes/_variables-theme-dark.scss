@@ -7,26 +7,26 @@
 
 $primary: #f6aae6;
 $secondary: #a4afb5;
-$dark: darken(#1a181b, 2%);
-$danger: #fdcfd7;
+$dark: darken(#191919, 1%);
+$danger: #fdd2d2;
 $muted: #6c757d;
 
-$base-bg: #0e0d0e;
-$base-bg-light: #1a1a1a;
+$base-bg: #0c0c0c;
+$base-bg-light: #161616;
 $base-bg-dark: #090909;
 
 $texts: #EEEEEE;
 $texts-inverted: #111111;
 
-$base-container-bg: #1e1c1f;
-$base-container-bg-accent: #272429;
-$base-popover-bg: #0d0c0e;
+$base-container-bg: #191919;
+$base-container-bg-accent: #1f1f1f;
+$base-popover-bg: #0e0e0e;
 $base-boards: lighten($base-container-bg, 3%);
 $base-info-badges: lighten($dark, 3%);
-$empty: lighten($base-bg, 4%);
+$empty: darken($base-container-bg, 3%);
 
-$borders: #231f23;
-$scrollbar-track: #181619;
+$borders: #1E1E1E;
+$scrollbar-track: #101010;
 $scrollbar-thumb: #32343a;
 
 :root {
