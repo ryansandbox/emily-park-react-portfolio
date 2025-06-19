@@ -16,35 +16,10 @@ export const _urlUtils = {
      * @return {string}
      */
     getRootLocation: () => {
-        const { protocol, host, pathname, search, hash } = window.location
-        const path = `${protocol}//${host}${pathname}`
+        const { protocol, host } = window.location
+        const basePath = import.meta.env.BASE_URL
+        const path = `${protocol}//${host}${basePath}`
         return path.endsWith('/') ? path : `${path}/`
-    },
-
-    /**
-     * @param {string} url
-     * @return {boolean}
-     */
-    isExternal: (url) => {
-        const link = document.createElement('a')
-        link.href = url
-        return link.hostname !== window.location.hostname
-    },
-
-    /**
-     * @param {string} url
-     * @return {boolean}
-     */
-    isImage: (url) => {
-        return /\.(jpg|jpeg|png|gif|bmp|svg|ico)$/i.test(url)
-    },
-
-    /**
-     * @param {string} url
-     * @return {boolean}
-     */
-    isLocal: (url) => {
-        return !_urlUtils.isExternal(url)
     },
 
     /**
