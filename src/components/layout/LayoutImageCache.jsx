@@ -30,7 +30,7 @@ function LayoutImageCache({ profile, settings, sections }) {
         })
     }
 
-    const filtered = imagesToCache.filter(image => image)
+    const filtered = imagesToCache.filter(image => image && !image.includes('{theme}'))
 
     return (
         <div className={`layout-image-cache`}>
