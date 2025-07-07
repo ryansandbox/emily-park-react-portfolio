@@ -24,15 +24,15 @@ $z-index-content: 0;
 $z-index-section-inactive: 10;
 $z-index-section-active: 20;
 $z-index-section-floating-items: 30;
-$z-index-sidebar: 100;
-$z-index-nav-tabs: 200;
-$z-index-pop-over: 8500;
-$z-index-modal: 9000;
-$z-index-notifications: 9500;
-$z-index-dialogs:9800;
-$z-index-activity-spinner: 9990;
-$z-index-animated-cursor: 9995;
-$z-index-loader: 9999;
+$z-index-sidebar: 40;
+$z-index-nav-tabs: 50;
+$z-index-pop-over: 1200;
+$z-index-modal: 1210;
+$z-index-notifications: 1220;
+$z-index-dialogs: 1230;
+$z-index-activity-spinner: 1240;
+$z-index-animated-cursor: 1250;
+$z-index-loader: 1260;
 
 /** Layout Constraints - General **/
 $max-breakpoint-for-tabbed-interface: md;

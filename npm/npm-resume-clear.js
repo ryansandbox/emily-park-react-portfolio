@@ -85,6 +85,25 @@ jsonUtils.overwrite(jSettingsPath, {
         }
     ],
 
+    consoleMessageForDevelopers: {
+        title: "\uD83D\uDDA5️ Hey there, fellow developer!",
+        items: [
+            {
+                description: "This is an open-source template based on the React framework.",
+                list: [],
+                listStyle: "none"
+            },
+            {
+                description: "Like what you see? Let's connect!",
+                list: [
+                    "GitHub: https://github.com/username",
+                    "Website: https://website.com"
+                ],
+                listStyle: "bulleted"
+            }
+        ]
+    },
+
     imagesToCache: []
 })
 
