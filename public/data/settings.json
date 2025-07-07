@@ -85,6 +85,30 @@
             }
         }
     ],
+    "consoleMessageForDevelopers": {
+        "title": "\uD83C\uDF38️ Hey there, fellow developer!",
+        "items": [
+            {
+                "description": "This project is a customized version of React Portfolio Template originally developed by Ryan Balieiro."
+            },
+            {
+                "description": "Original Repo:",
+                "list": ["https://github.com/ryanbalieiro/react-portfolio-template"]
+            },
+            {
+                "description": "Emily Park's Repo:",
+                "list": ["https://github.com/ryansandbox/emily-park-react-portfolio"]
+            },
+            {
+                "description": "Developer Info:",
+                "list": [
+                    "GitHub: https://github.com/ryanbalieiro",
+                    "Website: https://ryanbalieiro.com"
+                ],
+                "listStyle": "bulleted"
+            }
+        ]
+    },
     "imagesToCache": [
         "images/svg/logo-small-dark.svg",
         "images/svg/logo-small-light.svg"
