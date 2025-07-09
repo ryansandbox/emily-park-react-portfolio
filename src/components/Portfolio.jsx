@@ -23,7 +23,7 @@ function Portfolio() {
     const settings = data.getSettings()
     const sections = data.getSections()
 
-    const animatedBackgroundEnabled = settings.templateSettings.animatedBackground
+    const backgroundStyle = settings.templateSettings.backgroundStyle
 
     const currentSection = navigation.targetSection
     const previousSection = navigation.previousSection
@@ -32,7 +32,7 @@ function Portfolio() {
 
     return (
         <Layout id={"react-portfolio"}
-                animatedBackgroundEnabled={animatedBackgroundEnabled}>
+                backgroundStyle={backgroundStyle}>
             <LayoutImageCache profile={profile}
                               settings={settings}
                               sections={sections}/>

@@ -58,6 +58,8 @@ function InputProvider({ children }) {
     }
 
     const _onMouseDown = (e) => {
+        if (e.button !== 0) return
+
         setIsClicked(true)
         setMouseDownStatus(_generateMouseEventBundle(e))
         setLastMouseTarget(e.target)

@@ -47,8 +47,8 @@ jsonUtils.overwrite(jSettingsPath, {
     },
 
     templateSettings: {
-        animatedBackground: true,
         animatedCursorEnabled: true,
+        backgroundStyle: "animated",
         defaultLanguageId: "en",
         defaultThemeId: "dark",
         fullscreenEnabled: true,

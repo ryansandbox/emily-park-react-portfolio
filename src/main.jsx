@@ -83,7 +83,7 @@ const AppEssentialsWrapper = ({children}) => {
 
         if(debugMode) {
             settings.preloaderSettings.enabled = stayOnThePreloaderScreen
-            settings.templateSettings.animatedBackground = false
+            settings.templateSettings.backgroundStyle = "plain"
             utils.storage.setWindowVariable("suspendAnimations", true)
             utils.log.warn("DataProvider", "Debug Mode is enabled, so transitions and animated content—such as the preloader screen, background animations, and role text typing—will be skipped. You can disable it manually on settings.json or by running the app on PROD_MODE, which disables it by default.")
         }
