@@ -32,7 +32,7 @@ function NavToolResumeDownloader() {
             return
         }
 
-        utils.file.download(resumeUrl, "resume.pdf")
+        utils.file.download(resumeUrl)
     }
 
     return (

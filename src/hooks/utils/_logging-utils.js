@@ -47,15 +47,23 @@ export const _loggingUtils = {
             return
 
         if(title) {
-            _loggingUtils.stylizedLog(`\n${title}\n`, primaryColor, 1.7, true)
+            _loggingUtils.stylizedLog(
+                `\n${title}\n`,
+                primaryColor,
+                1.7,
+                true
+            )
         }
 
         const body = items.map(item => {
+            const itemListPrefixes = {
+                bulleted: "• ",
+                none: ""
+            }
+
             const itemList = item.list || []
             const itemListStyle = item.listStyle
-            const itemListPrefix = itemListStyle === "bulleted" ?
-                "• " :
-                ""
+            const itemListPrefix = itemListPrefixes[itemListStyle] || itemListPrefixes.none
 
             const itemListSerialized = itemList.map(
                 subItem => `\n${itemListPrefix}${subItem}`
@@ -64,6 +72,11 @@ export const _loggingUtils = {
             return `${item.description}${itemListSerialized}\n`
         }).join('\n').trim()
 
-        _loggingUtils.stylizedLog(body, "#999", 1.2, false)
+        _loggingUtils.stylizedLog(
+            body,
+            "#999",
+            1.2,
+            false
+        )
     }
 }

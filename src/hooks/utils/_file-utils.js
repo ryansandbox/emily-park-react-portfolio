@@ -11,9 +11,8 @@ export const _fileUtils = {
 
     /**
      * @param {String} url
-     * @param {String} filename
      */
-    download: (url, filename) => {
+    download: (url) => {
         window.open(_fileUtils.resolvePath(url), "_blank")
     },
 

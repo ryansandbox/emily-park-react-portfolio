@@ -1,0 +1,6 @@
+@import "/src/styles/extend.scss";
+
+.hover-static-tooltip {
+    text-align: center;
+    z-index: $z-index-pop-over!important;
+}

@@ -1,0 +1,67 @@
+@import "/src/styles/extend.scss";
+
+div.audio-button-wrapper {
+    display: inline-flex;
+    height: 100%;
+}
+
+button.audio-button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-texts-light-4);
+    outline: none;
+
+    i {
+        pointer-events: none;
+    }
+
+    &:hover {
+        color: var(--theme-texts-light-1);
+    }
+}
+
+div.audio-button-tooltip {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: $font-family-base;
+}
+
+/** ---------------- SIZES ------------------ **/
+div.audio-button-wrapper-size-default {
+    button.audio-button {
+        font-size: 1rem;
+        margin-left: 8px;
+        min-width: 1.3rem;
+    }
+
+    div.audio-button-tooltip {
+        width: 150px;
+        transform: translate(calc(-50% + 1rem), calc(-100% - 0.5rem));
+    }
+}
+
+div.audio-button-wrapper-size-dynamic-for-nav-title {
+    button.audio-button {
+        font-size: 1rem;
+        position: relative;
+        min-width: 1.3rem;
+        margin-left: 9px;
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            margin-left: 10px;
+            top: -2px;
+        }
+    }
+
+    div.audio-button-tooltip {
+        min-width: 180px;
+        transform: translate(calc(-50% + 1.2rem), calc(-100% - 0.6rem));
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            transform: translate(calc(-50% + 1.26rem), calc(-100% - 0.65rem));
+        }
+    }
+}

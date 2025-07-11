@@ -18,6 +18,7 @@ const foldersToDelete = [
 ]
 
 const foldersToEmpty = [
+    "public/audio",
     "public/data/sections"
 ]
 
@@ -229,7 +230,9 @@ jsonUtils.update(jProfilePath, {
             status_message_available_for_freelance: "Available for freelance!",
             roles: [
                 "Procrastinator"
-            ]
+            ],
+            name_pronunciation_ipa: "",
+            name_pronunciation_audio_url: ""
         }
     }
 })

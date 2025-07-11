@@ -60,7 +60,7 @@ function NavToolSettings({ options }) {
             case NavToolSettings.Options.DOWNLOAD_RESUME:
                 const profile = data.getProfile()
                 const resumeUrl = profile.resumePdfUrl
-                utils.file.download(resumeUrl, "resume.pdf")
+                utils.file.download(resumeUrl)
                 break
         }
     }

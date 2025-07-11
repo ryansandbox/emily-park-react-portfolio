@@ -19,18 +19,6 @@ export const _numberUtils = {
      * @param {Number} number
      * @param {Number} min
      * @param {Number} max
-     * @return {Number} number
-     */
-    clampIfNumberOrNull: (number, min, max) => {
-        if(number === null || number === undefined || isNaN(number))
-            return null
-        return _numberUtils.clamp(number, min, max)
-    },
-
-    /**
-     * @param {Number} number
-     * @param {Number} min
-     * @param {Number} max
      * @param {Number} [defaultValue]
      * @return {Number} number
      */

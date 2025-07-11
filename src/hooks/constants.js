@@ -55,7 +55,6 @@ export const useConstants = () => {
     const TRACKABLE_CLASSES = [
         {name: 'scrollbar-track', faIcon: 'fa-solid fa-up-down'},
         {name: 'scrollbar-thumb', faIcon: 'fa-solid fa-up-down'},
-        {name: 'status-circle', icon: null},
         {name: 'swiper-pagination-bullet', icon: null},
     ]
 

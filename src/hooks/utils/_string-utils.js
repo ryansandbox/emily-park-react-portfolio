@@ -3,10 +3,6 @@
  * @date 2025-05-10
  */
 
-import {useConstants} from "/src/hooks/constants.js"
-
-const constants = useConstants()
-
 export const _stringUtils = {
     /**
      * @param {String} name

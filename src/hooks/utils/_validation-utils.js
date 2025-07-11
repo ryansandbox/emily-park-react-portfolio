@@ -10,13 +10,9 @@ export const _validationUtils = {
      */
     isSpam: (message) => {
         const matches = message.match(/[a-z]/gi)
-        // Skip if the message isn't essentially written with English letters...
+        // Skip verification if the message isn't essentially written with English letters...
         if(!matches || !matches.length || matches.length/message.length < 0.5)
             return false
-
-        // Remove special characters and normalize
-        const normalized = message.replace(/[^a-zA-Z ]/g, '').toLowerCase()
-        const words = normalized.trim().split(/\s+/).filter(Boolean)
 
         // Heuristic 1: Check if the message is too short or has too few spaces
         if (message.length < 10 || (message.match(/\s/g) || []).length < 1)
