@@ -21,8 +21,9 @@ export const _fileUtils = {
      * @return {Promise<any>}
      */
     loadJSON: async (path) => {
+        const resolvedPath = _fileUtils.resolvePath(path)
+
         try {
-            const resolvedPath = _fileUtils.resolvePath(path)
             const response = await fetch(resolvedPath)
             const contentType = response.headers.get("content-type") || ""
 
@@ -33,7 +34,7 @@ export const _fileUtils = {
             return await response.json()
         }
         catch (error) {
-            console.error(`Failed to load JSON from ${path}:`, error)
+            console.error(`Failed to load JSON from ${resolvedPath}:`, error)
             return null
         }
     },
@@ -43,9 +44,11 @@ export const _fileUtils = {
      * @return {String}
      */
     resolvePath: (path) => {
-        if(path.startsWith("http"))
-            return path
+        if(!path) return path
+        if(path.startsWith("http")) return path
+
         const baseUrl = _fileUtils.BASE_URL || ""
-        return baseUrl + path
+        const fullPath = baseUrl + path
+        return fullPath.replace(/(^|[^:])\/\//g, "$1/")
     },
 }
