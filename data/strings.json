@@ -11,6 +11,8 @@
             "close_window": "Close Window",
             "confirm_to_continue": "Please confirm if you'd like to continue.",
             "connect_with_me": "Connect with me",
+            "copy_to_clipboard": "Copy to clipboard",
+            "copied_to_clipboard": "Copied!",
             "deactivate_magic_cursor": "Deactivate Magic Cursor",
             "deactivate_magic_cursor_message": "The magic cursor has been [[deactivated]].",
             "download_resume": "Download Resume",
@@ -64,7 +66,6 @@
             "watch_video": "Watch Video",
             "yes": "Yes"
         },
-
         "it": {
             "about_video": "Informazioni sul video",
             "activate_magic_cursor": "Attiva cursore magico",
@@ -76,6 +77,8 @@
             "close_window": "Chiudi finestra",
             "connect_with_me": "Connettiti con me",
             "confirm_to_continue": "Confermi di voler continuare?",
+            "copy_to_clipboard": "Copia negli appunti",
+            "copied_to_clipboard": "Copiato!",
             "deactivate_magic_cursor": "Disattiva cursore magico",
             "deactivate_magic_cursor_message": "Il cursore magico è stato [[disattivato]].",
             "download_resume": "Scarica CV",
@@ -129,7 +132,6 @@
             "watch_video": "Guarda il video",
             "yes": "Sì"
         },
-
         "ko": {
             "about_video": "영상 소개",
             "activate_magic_cursor": "매직 커서 활성화",
@@ -141,6 +143,8 @@
             "close_window": "창 닫기",
             "connect_with_me": "연결하기",
             "confirm_to_continue": "계속하시겠습니까?",
+            "copy_to_clipboard": "클립보드에 복사",
+            "copied_to_clipboard": "복사됨!",
             "deactivate_magic_cursor": "매직 커서 비활성화",
             "deactivate_magic_cursor_message": "매직 커서가 [[비활성화]]되었습니다.",
             "download_resume": "이력서 다운로드",
@@ -194,7 +198,6 @@
             "watch_video": "영상 보기",
             "yes": "예"
         },
-
         "zh": {
             "about_video": "关于视频",
             "activate_magic_cursor": "启用魔法光标",
@@ -206,6 +209,8 @@
             "close_window": "关闭窗口",
             "connect_with_me": "与我联系",
             "confirm_to_continue": "请确认是否继续。",
+            "copy_to_clipboard": "复制到剪贴板",
+            "copied_to_clipboard": "已复制！",
             "deactivate_magic_cursor": "禁用魔法光标",
             "deactivate_magic_cursor_message": "魔法光标已[[禁用]]。",
             "download_resume": "下载简历",

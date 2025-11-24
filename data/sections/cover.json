@@ -58,7 +58,6 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleText",
@@ -95,7 +94,6 @@
                 }
             ]
         },
-
         {
             "id": 3,
             "component": "ArticleCards",
@@ -216,7 +214,6 @@
                 }
             ]
         },
-
         {
             "id": 4,
             "component": "ArticleSkills",

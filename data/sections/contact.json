@@ -64,7 +64,6 @@
             },
             "items": null
         },
-
         {
             "id": 2,
             "component": "ArticleInfoList",
@@ -85,6 +84,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "+1 (123) 456-7890",
                     "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "Phone"},
                         "it": {"title": "Telefono"},
@@ -92,13 +92,13 @@
                         "zh": {"title": "电话"}
                     }
                 },
-
                 {
-                    "id":2,
+                    "id": 2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "ems.park@mail.com",
                     "link": {"href": "mailto:ems.park@mail.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "E-mail"},
                         "it": {"title": "E-mail"},
@@ -106,13 +106,13 @@
                         "zh": {"title": "电子邮件"}
                     }
                 },
-
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@ems.park",
                     "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "LinkedIn"},
                         "it": {"title": "LinkedIn"},
@@ -126,6 +126,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@emspark",
                     "link": {"href": "https://discord.com", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Discord"},
                         "it": {"title": "Discord"},
@@ -139,6 +140,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@emilycodes",
                     "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Instagram"},
                         "it": {"title": "Instagram"},
@@ -152,6 +154,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@emilycodes",
                     "link": {"href": "https://medium.com/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": { "title": "Medium" },
                         "it": { "title": "Medium" },

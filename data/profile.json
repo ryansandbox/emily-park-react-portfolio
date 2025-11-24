@@ -2,11 +2,9 @@
     "name": "Emily Park",
     "profilePictureUrl": "images/content/pfp.png",
     "resumePdfUrl": "pdf/resume.pdf",
-
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
-
     "locales": {
         "en": {
             "localized_name": "Emily Park",
