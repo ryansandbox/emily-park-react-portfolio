@@ -69,7 +69,8 @@ div.article-info-list-item {
         margin-bottom: 4px;
     }
 
-    p {
+    div.article-info-list-item-info-text {
+        display: inline;
         color: var(--theme-texts-light-2)!important;
         margin-bottom: 0;
     }

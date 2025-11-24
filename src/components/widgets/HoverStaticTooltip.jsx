@@ -6,7 +6,7 @@ import {useUtils} from "/src/hooks/utils.js"
 import {useInput} from "/src/providers/InputProvider.jsx"
 import {useNavigation} from "/src/providers/NavigationProvider.jsx"
 
-function HoverStaticTooltip({ id = "", targetId = "", label = "", className = "", onDesktopClick = null, forceResetFlag = null, toggleBehaviorOnTouchScreens = false }) {
+function HoverStaticTooltip({ id = "", targetId = "", label = "", className = "", onDesktopClick = null, forceResetFlag = null, forceVisible = false, toggleBehaviorOnTouchScreens = false }) {
     const viewport = useViewport()
     const input = useInput()
     const utils = useUtils()
@@ -81,7 +81,7 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
 
     return (
         <>
-            {visible && (
+            {(visible || forceVisible) && (
                 <Tooltip label={label}
                          id={id}
                          className={`hover-static-tooltip ${className}`}/>

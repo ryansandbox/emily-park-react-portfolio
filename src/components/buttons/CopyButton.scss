@@ -1,0 +1,32 @@
+@import "/src/styles/extend.scss";
+
+div.copy-button-wrapper {
+    display: inline-flex;
+}
+
+button.copy-button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-texts-light-4);
+    outline: none;
+
+    i {
+        pointer-events: none;
+    }
+
+    &:hover {
+        color: var(--theme-texts-light-1);
+    }
+}
+
+div.copy-button-tooltip {
+    line-height: 1.4rem;
+    font-family: $font-family-base;
+    white-space: nowrap;
+    transform: translate(calc(-50% + 0.5rem), calc(-100% - 0.5rem));
+}

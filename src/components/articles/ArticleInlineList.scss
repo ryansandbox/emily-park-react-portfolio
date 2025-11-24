@@ -7,14 +7,14 @@ ul.article-inline-list-items {
     list-style: none;
     padding: 0;
     margin: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 li.article-inline-list-item {
     margin-right: calc($spacing-between-items - 10px);
+    white-space: nowrap;
+    display: inline-flex;
+
     @include media-breakpoint-down(sm) {
         margin-right: calc($spacing-between-items - 12px);
     }
@@ -23,6 +23,10 @@ li.article-inline-list-item {
         content: "𐄁";
         color: var(--theme-muted);
         margin-left: $spacing-between-items;
+        margin-top: 4px;
+        @include media-breakpoint-down(md) {
+            margin-top: 5px;
+        }
         @include media-breakpoint-down(sm) {
             margin-left: calc($spacing-between-items - 5px);
         }
@@ -47,14 +51,14 @@ i.article-inline-list-item-icon {
 }
 
 ul.article-inline-list-items-column-mode {
+    display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
 
     li.article-inline-list-item {
         margin-right: 0;
         height: 25px;
-        width: 100%;
-        text-align: center;
 
         &:not(:last-child)::after {
             display: none;

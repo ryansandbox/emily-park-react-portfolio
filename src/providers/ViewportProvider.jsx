@@ -22,6 +22,7 @@ function ViewportProvider({ children }) {
     const [innerWidth, setInnerWidth] = useState(window.innerWidth)
     const [innerHeight, setInnerHeight] = useState(window.innerHeight)
     const [didCreateListeners, setDidCreateListeners] = useState(false)
+    const [clipboardText, setClipboardText] = useState(null)
 
     useEffect(() => {
         _createListeners()
@@ -102,6 +103,39 @@ function ViewportProvider({ children }) {
         }
     }
 
+    const copyToClipboard = async (text) => {
+        if(isCopiedToClipboard(text))
+            return
+
+        if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(text)
+            window.lastCopiedToClipboardText = text
+            setClipboardText(text)
+            return
+        }
+
+        const textArea = document.createElement("textarea")
+        textArea.value = text
+        textArea.style.position = "absolute"
+        textArea.style.visibility = "hidden"
+        document.body.append(textArea)
+        textArea.select()
+
+        try {
+            document.execCommand('copy')
+            window.lastCopiedToClipboardText = text
+            setClipboardText(text)
+        }
+        catch (error) {}
+        finally {
+            textArea.remove()
+        }
+    }
+
+    const isCopiedToClipboard = (text) => {
+        return clipboardText === text
+    }
+
     return (
         <ViewportContext.Provider value={{
             scrollX,
@@ -115,7 +149,9 @@ function ViewportProvider({ children }) {
             isDesktopLayout,
             getValueFromBreakpointHash,
             getLayoutConstraints,
-            getCustomBreakpoint
+            getCustomBreakpoint,
+            copyToClipboard,
+            isCopiedToClipboard
         }}>
             {didCreateListeners && (
                 <>{children}</>
@@ -139,7 +175,9 @@ const ViewportContext = createContext(null)
  *    isDesktopLayout: Function,
  *    getValueFromBreakpointHash: Function,
  *    getLayoutConstraints: Function,
- *    getCustomBreakpoint: Function
+ *    getCustomBreakpoint: Function,
+ *    copyToClipboard: Function,
+ *    isCopiedToClipboard: Function
  * }}
  */
 export const useViewport = () => useContext(ViewportContext)

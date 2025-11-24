@@ -4,6 +4,7 @@ import Article from "/src/components/articles/base/Article.jsx"
 import AvatarView from "/src/components/generic/AvatarView.jsx"
 import Link from "/src/components/generic/Link.jsx"
 import {useViewport} from "/src/providers/ViewportProvider.jsx"
+import CopyButton from "/src/components/buttons/CopyButton.jsx"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -103,19 +104,26 @@ function ArticleInfoListItem({ itemWrapper}) {
                 <div className={`article-info-list-item-info-title ${titleClass}`}
                      dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
 
-                <p className={`article-info-list-item-info-text ${textClass}`}
-                   dangerouslySetInnerHTML={{__html: itemWrapper.locales.text}}/>
+                <div className={`article-info-list-item-info-body`}>
+                    <div className={`article-info-list-item-info-text ${textClass}`}
+                         dangerouslySetInnerHTML={{__html: itemWrapper.locales.text}}/>
 
-                {itemWrapper.link?.href && (
-                    <Link href={itemWrapper.link?.href || null}
-                          tooltip={itemWrapper.link?.tooltip}
-                          metadata={itemWrapper.link?.metadata}
-                          className={`${textClass} text-3 article-info-list-item-info-link`}
-                          onHoverStatus={setLinkHovered}>
+                    {itemWrapper.link?.href && (
+                        <Link href={itemWrapper.link?.href || null}
+                              tooltip={itemWrapper.link?.tooltip}
+                              metadata={itemWrapper.link?.metadata}
+                              className={`${textClass} text-3 article-info-list-item-info-link d-inline`}
+                              onHoverStatus={setLinkHovered}>
                             <span className={`article-inline-list-item-label`}
                                   dangerouslySetInnerHTML={{__html: itemWrapper.locales.label || itemWrapper.label || itemWrapper.locales.title}}/>
-                    </Link>
-                )}
+                        </Link>
+                    )}
+
+                    {itemWrapper.copyToClipboardButton && (
+                        <CopyButton text={itemWrapper.locales.label || itemWrapper.label || itemWrapper.locales.text}
+                                    buttonClassName={`ms-2 ps-1`}/>
+                    )}
+                </div>
             </div>
         </div>
     )

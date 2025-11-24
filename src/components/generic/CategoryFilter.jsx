@@ -31,8 +31,7 @@ function CategoryFilter({ categories, selectedCategoryId, setSelectedCategoryId,
     }
 
     return (
-        <div className={`category-filter btn-group ${className}`}
-             role={"group"}>
+        <div className={`category-filter ${className}`}>
             {categories.map((category, key) => (
                 <CategoryFilterButton key={key}
                                       category={category}

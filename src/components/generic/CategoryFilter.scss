@@ -1,20 +1,17 @@
 @import "/src/styles/extend.scss";
 
 div.category-filter {
-    display: inline-flex;
-    width: 100%;
-    max-width: 800px;
     margin: 0 auto;
-    @include media-breakpoint-down(xxl) {
-        max-width: 800px;
-    }
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
 }
 
 button.category-filter-button {
     padding: 0.3rem 2rem;
-
     outline: none !important;
     box-shadow: none !important;
+    min-width: min(20%, 200px)!important;
 
     background-color: var(--theme-boards-background);
     border: 2px solid var(--theme-card-background)!important;
@@ -23,11 +20,23 @@ button.category-filter-button {
 
     @include media-breakpoint-down(md) {
         border-width: 1px!important;
-        min-width: 15%;
+        min-width: 15%!important;
     }
 
     @include media-breakpoint-down(sm) {
-        padding: 0.3rem 0;
+        padding: 0.3rem 1.2rem;
+        min-width: 20%!important;
+    }
+
+    border-radius: 0!important;
+    &:first-child {
+        border-top-left-radius: $standard-border-radius!important;
+        border-bottom-left-radius: $standard-border-radius!important;
+    }
+
+    &:last-child {
+        border-top-right-radius: $standard-border-radius!important;
+        border-bottom-right-radius: $standard-border-radius!important;
     }
 }
 

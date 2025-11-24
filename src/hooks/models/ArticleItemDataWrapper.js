@@ -42,6 +42,7 @@ export default class ArticleItemDataWrapper {
         this.img = language.parseJsonText(rawData.img)
         this.label = rawData.label
         this.link = this._parseLink(rawData.link, language)
+        this.copyToClipboardButton = rawData.copyToClipboardButton || false
         this.locales = this._parseLocales(rawData.locales, language)
         this.percentage = this._parseNumber(rawData.percentage, 0, 100)
         this.preview = this._parsePreview(rawData.preview, language)
