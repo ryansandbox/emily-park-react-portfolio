@@ -8,25 +8,11 @@ div.category-filter {
 }
 
 button.category-filter-button {
-    padding: 0.3rem 1.5rem;
     outline: none !important;
     box-shadow: none !important;
-    min-width: min(20%, 200px)!important;
-
     background-color: var(--theme-boards-background);
-    border: 2px solid var(--theme-card-background)!important;
     color: var(--theme-texts-light-1);
     transition: none;
-
-    @include media-breakpoint-down(md) {
-        border-width: 1px!important;
-        min-width: 15%!important;
-    }
-
-    @include media-breakpoint-down(sm) {
-        padding: 0.3rem 0.5rem;
-        min-width: 15%!important;
-    }
 
     border-radius: 0!important;
     &:first-child {
@@ -37,6 +23,14 @@ button.category-filter-button {
     &:last-child {
         border-top-right-radius: $standard-border-radius!important;
         border-bottom-right-radius: $standard-border-radius!important;
+    }
+
+    border: 2px solid var(--theme-card-background)!important;
+    @include media-breakpoint-down(md) {
+        border-width: 1px!important;
+    }
+    @media(max-width: 450px) {
+        min-width: 15%!important;
     }
 }
 
