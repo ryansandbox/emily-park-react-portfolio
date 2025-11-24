@@ -29,9 +29,6 @@ button.category-filter-button {
     @include media-breakpoint-down(md) {
         border-width: 1px!important;
     }
-    @media(max-width: 450px) {
-        min-width: 15%!important;
-    }
 }
 
 button.category-filter-button:hover, button.category-filter-button:focus {
