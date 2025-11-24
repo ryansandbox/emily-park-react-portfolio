@@ -24,8 +24,8 @@ button.category-filter-button {
     }
 
     @include media-breakpoint-down(sm) {
-        padding: 0.3rem 1.2rem;
-        min-width: 20%!important;
+        padding: 0.3rem 0.5rem;
+        min-width: 15%!important;
     }
 
     border-radius: 0!important;
