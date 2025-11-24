@@ -104,7 +104,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "categoryId": "category_mobile",
@@ -145,7 +144,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "categoryId": "category_console",
@@ -182,7 +180,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "categoryId": "category_mobile",
@@ -219,7 +216,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 5,
                     "categoryId": "category_mobile",
@@ -256,7 +252,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 6,
                     "categoryId": "category_console",
@@ -293,7 +288,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 7,
                     "categoryId": "category_mobile",
@@ -330,7 +324,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 8,
                     "categoryId": "category_web",
@@ -366,7 +359,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 9,
                     "categoryId": "category_web",

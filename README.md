@@ -1,4 +1,8 @@
-# 🌸 React Portfolio Template – [Emily Park](https://ryansandbox.github.io/emily-park-react-portfolio/)
+<p align="center">
+    <img src="docs/assets/logo.svg" width="120">
+</p>
+
+# React Portfolio Template – [Emily Park](https://ryansandbox.github.io/emily-park-react-portfolio/)
 
 This project is a customized version of [React Portfolio Template](https://github.com/ryanbalieiro/react-portfolio-template) originally developed by **Ryan Balieiro**.
 

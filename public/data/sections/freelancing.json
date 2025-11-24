@@ -59,7 +59,6 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleTestimonials",
@@ -100,7 +99,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "label": "Callum Wang",
@@ -127,7 +125,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "label": "Amanda Lynch",
@@ -154,7 +151,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "label": "Luke Jordan",
@@ -183,7 +179,6 @@
                 }
             ]
         },
-
         {
             "id": 3,
             "component": "ArticleInfoList",
