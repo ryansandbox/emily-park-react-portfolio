@@ -24,12 +24,11 @@ div.article-info-list-items {
     }
     @include media-breakpoint-down(md) {
         --grid-row-gap: 10px;
-        --padding: 5px;
+        --padding: 8px;
         --avatar-size: 65px;
     }
     @include media-breakpoint-down(sm) {
-        --avatar-size: 65px;
-        --padding: 4px;
+        --padding: 7px;
         --content-padding: 8px 20px;
     }
 

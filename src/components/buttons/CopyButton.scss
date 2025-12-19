@@ -29,4 +29,9 @@ div.copy-button-tooltip {
     font-family: $font-family-base;
     white-space: nowrap;
     transform: translate(calc(-50% + 0.5rem), calc(-100% - 0.5rem));
+
+    @include media-breakpoint-down(md) {
+        line-height: 1.2rem;
+        transform: translate(calc(-50% + 0.5rem), calc(-100% - 0.35rem));
+    }
 }

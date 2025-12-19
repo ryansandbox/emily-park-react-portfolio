@@ -89,7 +89,7 @@ function ArticleInfoListItem({ itemWrapper}) {
         ``
 
     const baseTextSize = 3
-    const titleClass = `text-${baseTextSize + 1}`
+    const titleClass = `text-${baseTextSize + 2}`
     const textClass = `text-${baseTextSize}`
 
     return (
