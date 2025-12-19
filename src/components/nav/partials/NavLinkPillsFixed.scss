@@ -20,7 +20,7 @@ div.nav-link-pills-fixed-wrapper-shown {
 }
 
 div.nav-link-pills-fixed-wrapper-hiding {
-    --offset: calc(-1 * var(--nav-pills-height));
+    --offset: calc(-2 * var(--nav-pills-height));
 
     transition: 0.1s ease-out transform;
     transform: translateY(var(--offset));
@@ -28,7 +28,7 @@ div.nav-link-pills-fixed-wrapper-hiding {
 }
 
 div.nav-link-pills-fixed-wrapper-hidden {
-    --offset: calc(-1.5 * var(--nav-pills-height));
+    --offset: calc(-3 * var(--nav-pills-height));
 
     transition: none;
     transform: translateY(var(--offset));

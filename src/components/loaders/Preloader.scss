@@ -7,10 +7,8 @@ div.preloader-window {
     color: $loader-contrast;
 
     width: 100vw;
-    height: 125vh;
-    height: 125svh;
-    top: -12.5vh;
-    top: -12.5svh;
+    height: 100vh;
+    height: 100svh;
 
     display: flex;
     align-items: center;
@@ -19,7 +17,6 @@ div.preloader-window {
 }
 
 div.preloader-window-hidden {
-    top: -15.5vh;
     opacity: 0;
     transition: 0.3s all ease-in;
     pointer-events: none;

@@ -26,10 +26,6 @@ body.body-android {
     }
 }
 
-body.body-no-scroll {
-    overflow-y: hidden!important;
-}
-
 /** ------------ SELECTION STYLES ------------ **/
 ::-moz-selection {
     color: var(--theme-texts-inv);
