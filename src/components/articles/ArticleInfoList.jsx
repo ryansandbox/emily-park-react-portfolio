@@ -88,7 +88,7 @@ function ArticleInfoListItem({ itemWrapper}) {
         `article-info-list-item-hovered` :
         ``
 
-    const baseTextSize = itemWrapper.locales.text ? 3 : 4
+    const baseTextSize = 3
     const titleClass = `text-${baseTextSize + 1}`
     const textClass = `text-${baseTextSize}`
 
@@ -101,7 +101,7 @@ function ArticleInfoListItem({ itemWrapper}) {
                         className={`article-info-list-item-avatar`}/>
 
             <div className={`article-info-list-item-content`}>
-                <div className={`article-info-list-item-info-title ${titleClass}`}
+                <div className={`article-info-list-item-info-title mb-0 mb-md-1 ${titleClass}`}
                      dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
 
                 <div className={`article-info-list-item-info-body`}>
